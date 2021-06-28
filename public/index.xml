@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jumpstart Academy: Building Blocks of the Web</title>
+    <link>https://jumpstart-frontend.netlify.app/</link>
+    <description>Recent content on Jumpstart Academy: Building Blocks of the Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jun 2021 16:34:21 -0400</lastBuildDate><atom:link href="https://jumpstart-frontend.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anatomy of CSS</title>
+      <link>https://jumpstart-frontend.netlify.app/css/anatomy-of-css/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/anatomy-of-css/</guid>
+      <description>Anatomy of CSS CSS Ruleset To modify multiple property values in one ruleset, write them separated by semicolons, like this:
+p { color: red; width: 500px; border: 1px solid black; } Multiple elements To select multiple elements with one ruleset
+h1, p, a { color: red; } Types of Selectors Element selector All HTML elements of the specified type.
+p { color: red; } h2 { color: blue; } ID Selector The element on the page with the specified ID.</description>
+    </item>
+    
+    <item>
+      <title>Basic Elements</title>
+      <link>https://jumpstart-frontend.netlify.app/html/basic-elements/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/html/basic-elements/</guid>
+      <description>Headings HTML headings are defined with the &amp;lt;h1&amp;gt; to &amp;lt;h6&amp;gt; tags.
+The &amp;lt;h1&amp;gt; is the most important heading and is used only once per page. &amp;lt;h2&amp;gt; through &amp;lt;h6&amp;gt; are the next most important headings and can be used as many times as needed on a page.
+&amp;lt;h1&amp;gt;This is the page title&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;This is the second heading&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;This is the third heading&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;This is the fourth heading&amp;lt;/h4&amp;gt; &amp;lt;h5&amp;gt;This is the fifth heading&amp;lt;/h5&amp;gt; &amp;lt;h6&amp;gt;This is the sixth heading&amp;lt;/h6&amp;gt; Paragraphs Paragraphs are defined with the &amp;lt;p&amp;gt; tag:</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s a Web Page?</title>
+      <link>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</guid>
+      <description>The very basic element of a web page is a text document written in HTML (Hyper Text Markup Language). A browser runs the web page file and renders the HTML markup.
+The file The HTML inside the file &amp;lt;p&amp;gt;Hello.&amp;lt;/p&amp;gt; The file opened in a web browser That&amp;rsquo;s it. That&amp;rsquo;s a web page.
+No Server Needed You&amp;rsquo;ll notice the example web page is running on its own. Since front end languages are rendered in the browser you don&amp;rsquo;t need to have any servers to render the code or compilers to translate anything.</description>
+    </item>
+    
+    <item>
+      <title>Semantic Elements</title>
+      <link>https://jumpstart-frontend.netlify.app/html/semantic-elements/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/html/semantic-elements/</guid>
+      <description>What are Semantic Elements? Semantic elements clearly describe their meaning to the browser and the developer.
+Non-semantic elements like: &amp;lt;div&amp;gt; and &amp;lt;span&amp;gt; - tell nothing about its content.
+Additionally, tags such as &amp;lt;b&amp;gt; (bold) and &amp;lt;i&amp;gt; (italics) define how the text should look, but don&amp;rsquo;t provide any additional meaning to the markup.
+Semantic elements like: &amp;lt;form&amp;gt;, &amp;lt;table&amp;gt;, and &amp;lt;article&amp;gt; clearly define its content.
+Why Should We Use Semantice Elements? The goal of any website its to communicate information.</description>
+    </item>
+    
+    <item>
+      <title>Using CSS</title>
+      <link>https://jumpstart-frontend.netlify.app/css/using-css/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/using-css/</guid>
+      <description>Using CSS CSS can be added to an HTML documents in 3 ways:
+1. Inline By using the style attribute inside HTML elements
+&amp;lt;h1 style=&amp;quot;color:red;&amp;quot;&amp;gt;A Red Heading&amp;lt;/h1&amp;gt; &amp;lt;p style=&amp;quot;color:pink;&amp;quot;&amp;gt;A pink paragraph.&amp;lt;/p&amp;gt; 2. Internal By using a &amp;lt;style&amp;gt; element in the &amp;lt;head&amp;gt; section
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; body{ background-color: orange; } h1{ color: blue; } p{ color: #cc0000; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;This is a heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 3.</description>
+    </item>
+    
+    <item>
+      <title>CSS Excercise #1</title>
+      <link>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</guid>
+      <description>Add some styles We&amp;rsquo;ll spend the next ten minutes on the following:
+ Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements.  background-color border font-size font-weight text-align text-decoration margin padding width height    New CSS File  In Visual Studio create a new file named styles.css. Include the new file inside your index.html file. Add the styles from above to the new styles.</description>
+    </item>
+    
+    <item>
+      <title>Embedding Things</title>
+      <link>https://jumpstart-frontend.netlify.app/html/embedding-things/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/html/embedding-things/</guid>
+      <description>We can embed many types of media and other content into an HTML page.
+Images Embed an image in a page.
+&amp;lt;img src=&amp;quot;image.jpg&amp;quot; alt=&amp;quot;alt text&amp;quot; width=&amp;quot;500px&amp;quot; height=&amp;quot;200px&amp;quot;&amp;gt; The &amp;lt;img&amp;gt; tag has many attributes. All of them are optional except the src which defines the path or source of the image. If width and height are omitted the image will default to the actual image size.
+The alt text is important for users who use screen readers (please don&amp;rsquo;t ignore these people!</description>
+    </item>
+    
+    <item>
+      <title>Layout - CSS Exercise #2</title>
+      <link>https://jumpstart-frontend.netlify.app/css/layout-exercise-2/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/layout-exercise-2/</guid>
+      <description>A typical web page layout looks something like this.
+Let&amp;rsquo;s work together to turn our existing HTML page into something like this.</description>
+    </item>
+    
+    <item>
+      <title>Responsive Web Design</title>
+      <link>https://jumpstart-frontend.netlify.app/css/responsive/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/responsive/</guid>
+      <description>One design. Many screens. Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone.
+Media Queries </description>
+    </item>
+    
+    <item>
+      <title>The Complete Structure</title>
+      <link>https://jumpstart-frontend.netlify.app/html/structure/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/html/structure/</guid>
+      <description>A complete HTML document At the highest level of a web document are the &amp;lt;html&amp;gt;, &amp;lt;head&amp;gt;, and &amp;lt;body&amp;gt; tags. As you noticed from the earlier HTML examples these tags are optional to render HTML, but they are highly semantic and help organize your document.
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Page Title&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;My First Heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;My first paragraph.&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; The DOCTYPE The &amp;lt;!DOCTYPE html&amp;gt; declaration defines that this document is an HTML5 document.</description>
+    </item>
+    
+    <item>
+      <title>HTML Exercise</title>
+      <link>https://jumpstart-frontend.netlify.app/html/html-exercise/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/html/html-exercise/</guid>
+      <description>Let&amp;rsquo;s create our own basic web page and have some fun.
+What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  Our First Web Page  On your desktop create a folder and name it jumpstart. Open Visual Studio Code Inside Visual Studio Code open the jumpstart directory (File &amp;raquo; Open). Inside jumpstart create a file named index.html. Inside index.html add some text. Open index.</description>
+    </item>
+    
+  </channel>
+</rss>

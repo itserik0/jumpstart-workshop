@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>Layout - CSS Exercise #2 :: Jumpstart Academy: Building Blocks of the Web</title>
+
+    
+    <link href="/css/nucleus.css?1624915067" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1624915067" rel="stylesheet">
+    <link href="/css/hybrid.css?1624915067" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1624915067" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1624915067" rel="stylesheet">
+    <link href="/css/auto-complete.css?1624915067" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1624915067" rel="stylesheet">
+    <link href="/css/theme.css?1624915067" rel="stylesheet">
+    <link href="/css/tabs.css?1624915067" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1624915067" rel="stylesheet">
+    
+    <link href="/css/theme-blue.css?1624915067" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1624915067"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/css/layout-exercise-2/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <h2 style="margin:0px 0px 10px 0px;font-size:1rem"><span style="color:#ffffff;">Jumpstart Workshop</span></h2>
+      <h3 style="margin:0px;font-size:1.5rem;"><span style="color:#ffffff;">Building Blocks of the Web</span></h3>
+      
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1624915067"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1624915067"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/jumpstart-frontend.netlify.app\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1624915067"></script>
+
+    
+  </div>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction/" title="Introduction" class="dd-item
+        
+        
+        
+        ">
+      <a href="/introduction/">
+          Introduction
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/whats-a-webpage/" title="What&#39;s a Web Page?" class="dd-item ">
+        <a href="/introduction/whats-a-webpage/">
+        What&#39;s a Web Page?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/html/" title="HTML" class="dd-item
+        
+        
+        
+        ">
+      <a href="/html/">
+          HTML
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/html/basic-elements/" title="Basic Elements" class="dd-item ">
+        <a href="/html/basic-elements/">
+        Basic Elements
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/html/semantic-elements/" title="Semantic Elements" class="dd-item ">
+        <a href="/html/semantic-elements/">
+        Semantic Elements
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/html/embedding-things/" title="Embedding Things" class="dd-item ">
+        <a href="/html/embedding-things/">
+        Embedding Things
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/html/structure/" title="The Complete Structure" class="dd-item ">
+        <a href="/html/structure/">
+        The Complete Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/html/html-exercise/" title="HTML Exercise" class="dd-item ">
+        <a href="/html/html-exercise/">
+        HTML Exercise
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/css/" title="CSS" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/css/">
+          CSS
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/css/anatomy-of-css/" title="Anatomy of CSS" class="dd-item ">
+        <a href="/css/anatomy-of-css/">
+        Anatomy of CSS
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/css/using-css/" title="Using CSS" class="dd-item ">
+        <a href="/css/using-css/">
+        Using CSS
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/css/css-exercise-1/" title="CSS Excercise #1" class="dd-item ">
+        <a href="/css/css-exercise-1/">
+        CSS Excercise #1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/css/layout-exercise-2/" title="Layout - CSS Exercise #2" class="dd-item active">
+        <a href="/css/layout-exercise-2/">
+        Layout - CSS Exercise #2
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/css/responsive/" title="Responsive Web Design" class="dd-item ">
+        <a href="/css/responsive/">
+        Responsive Web Design
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/frameworks/" title="Frameworks" class="dd-item
+        
+        
+        
+        ">
+      <a href="/frameworks/">
+          Frameworks
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/javascript/" title="Javascript" class="dd-item
+        
+        
+        
+        ">
+      <a href="/javascript/">
+          Javascript
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/css/'>CSS</a> > Layout - CSS Exercise #2
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#heading"></a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Layout - CSS Exercise #2
+            </h1>
+          
+
+        
+
+
+<h2 id="heading"></h2>
+<p>A typical web page layout looks something like this.</p>
+<p><img src="../images/layout.png" alt="typcial layout"></p>
+<p>Let&rsquo;s work together to turn our existing HTML page into something like this.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/css/css-exercise-1/" title="CSS Excercise #1"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/css/responsive/" title="Responsive Web Design" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1624915067"></script>
+    <script src="/js/perfect-scrollbar.min.js?1624915067"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1624915067"></script>
+    <script src="/js/jquery.sticky.js?1624915067"></script>
+    <script src="/js/featherlight.min.js?1624915067"></script>
+    <script src="/js/highlight.pack.js?1624915067"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1624915067"></script>
+    <script src="/js/learn.js?1624915067"></script>
+    <script src="/js/hugo-learn.js?1624915067"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1624915067"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

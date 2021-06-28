@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Jumpstart Academy: Building Blocks of the Web</title>
+    <link>https://jumpstart-frontend.netlify.app/css/</link>
+    <description>Recent content in CSS on Jumpstart Academy: Building Blocks of the Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jun 2021 15:50:06 -0400</lastBuildDate><atom:link href="https://jumpstart-frontend.netlify.app/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anatomy of CSS</title>
+      <link>https://jumpstart-frontend.netlify.app/css/anatomy-of-css/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/anatomy-of-css/</guid>
+      <description>Anatomy of CSS CSS Ruleset To modify multiple property values in one ruleset, write them separated by semicolons, like this:
+p { color: red; width: 500px; border: 1px solid black; } Multiple elements To select multiple elements with one ruleset
+h1, p, a { color: red; } Types of Selectors Element selector All HTML elements of the specified type.
+p { color: red; } h2 { color: blue; } ID Selector The element on the page with the specified ID.</description>
+    </item>
+    
+    <item>
+      <title>Using CSS</title>
+      <link>https://jumpstart-frontend.netlify.app/css/using-css/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/using-css/</guid>
+      <description>Using CSS CSS can be added to an HTML documents in 3 ways:
+1. Inline By using the style attribute inside HTML elements
+&amp;lt;h1 style=&amp;quot;color:red;&amp;quot;&amp;gt;A Red Heading&amp;lt;/h1&amp;gt; &amp;lt;p style=&amp;quot;color:pink;&amp;quot;&amp;gt;A pink paragraph.&amp;lt;/p&amp;gt; 2. Internal By using a &amp;lt;style&amp;gt; element in the &amp;lt;head&amp;gt; section
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; body{ background-color: orange; } h1{ color: blue; } p{ color: #cc0000; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;This is a heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 3.</description>
+    </item>
+    
+    <item>
+      <title>CSS Excercise #1</title>
+      <link>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</guid>
+      <description>Add some styles We&amp;rsquo;ll spend the next ten minutes on the following:
+ Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements.  background-color border font-size font-weight text-align text-decoration margin padding width height    New CSS File  In Visual Studio create a new file named styles.css. Include the new file inside your index.html file. Add the styles from above to the new styles.</description>
+    </item>
+    
+    <item>
+      <title>Layout - CSS Exercise #2</title>
+      <link>https://jumpstart-frontend.netlify.app/css/layout-exercise-2/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/layout-exercise-2/</guid>
+      <description>A typical web page layout looks something like this.
+Let&amp;rsquo;s work together to turn our existing HTML page into something like this.</description>
+    </item>
+    
+    <item>
+      <title>Responsive Web Design</title>
+      <link>https://jumpstart-frontend.netlify.app/css/responsive/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/responsive/</guid>
+      <description>One design. Many screens. Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone.
+Media Queries </description>
+    </item>
+    
+  </channel>
+</rss>

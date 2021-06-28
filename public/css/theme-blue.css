@@ -1,0 +1,26 @@
+#chapter #body-inner{
+    width: 100%;
+}
+#body img{
+    text-align: left;
+    display: unset;
+    margin: 0px 0px 2rem;
+}
+#chapter p{
+    text-align: left;
+}
+#chapter h3{
+    text-align: left;
+}
+
+h2,h3{
+    margin-top: 3rem;
+}
+
+pre{
+    margin: 0px 0px 2rem;
+}
+
+th{
+    text-align: center !important;
+}
