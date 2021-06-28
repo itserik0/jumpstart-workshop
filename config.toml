@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://jumpstart-frontend.netlify.app/"
 languageCode = "en-us"
 title = "Jumpstart Academy: Building Blocks of the Web"
 theme = "learn"
