@@ -16,7 +16,7 @@ Embed an image in a page.
 
 ![I'm a web site](../images/im-a-website.jpg)
 
-The ```<img>``` tag has many attributes. All of them are optional except the ```src``` which defines the path or source of the image. If width and height are omitted the image will default to the actual image size. 
+The ```<img>``` tag has many attributes. All of them are optional except the ```src``` which defines the path or source of the image. If ```width``` and ```height``` are omitted the image will default to the actual image size. 
 
 The alt text is important for users who use screen readers (please don't ignore these people!). The alt text should be a short description of what the image is trying to convey. For example the alt text for the above image would be **Ralph Wiggum waves in front of school lockers believing he's a web page**. Search engines like alt text as well. If you are looking for a place to add more keywords for your content alt text is a good place. 
 

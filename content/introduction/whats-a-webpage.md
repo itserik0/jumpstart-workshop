@@ -24,11 +24,10 @@ That's it. That's a web page.
 
 ## No Server Needed
 
-You'll notice the example web page is running on its own. Since front end languages are rendered in the browser you don't need to have any servers to render the code or compilers to translate anything. 
+You'll notice the example web page is running on its own. Since front end languages are rendered in the browser you don't need to have any servers to render the code or compilers to translate anything. When you load a web page in your browser, you are running your code (the HTML, CSS, and JavaScript) inside an execution environment (the browser tab). 
 
 In fact since the browser just downloads the html, css, javascript (and any media) files you can view the source of the files. 
 
 Try it yourself. Right click anywhere on this page and in the menu that appears select "View Page Source".
 
 ![View the source of the page](../images/view-source.jpg )
-

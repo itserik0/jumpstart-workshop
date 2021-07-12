@@ -2,7 +2,8 @@ baseURL = "https://jumpstart-frontend.netlify.app/"
 languageCode = "en-us"
 title = "Jumpstart Academy: Building Blocks of the Web"
 theme = "learn"
+themesdir = "themes"
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "blue"
-  showVisitedLinks = false
+  showVisitedLinks = true

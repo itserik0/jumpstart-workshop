@@ -11,7 +11,7 @@ Let's create our own basic web page and have some fun.
 1. A web browser of your choice
 2. Visual Studio Code (installed during installfest)
 
-### Our First Web Page
+### 1. Our First Web Page
 
 1. On your desktop create a folder and name it **jumpstart**.
 2. Open **Visual Studio Code**
@@ -26,7 +26,7 @@ You should see this:
 
 You just made a web page!
 
-### Use HTML
+### 2. Use HTML
 
 Now let's use some html. Spend the next fifteen minutes building the following wireframe in your index.html page.
 
@@ -40,7 +40,7 @@ Elements in each box are its child elements.
 
 ![Wireframe](../images/wireframe.jpg)
 
-### Let's Complete the Page
+### 3. Let's Complete the Page
 
 Next we'll put this all together into a complete web document. To your index.html file:
 1. Add the doctype

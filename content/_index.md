@@ -1,2 +1,3 @@
 # Building Blocks of the Web
-Learn the basics of web development
+
+This documentation is to help you follow along with the presenter. Please click the blue arrow to get started. 

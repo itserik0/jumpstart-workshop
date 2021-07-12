@@ -12,19 +12,19 @@ Non-semantic elements like: ```<div>``` and ```<span>``` - tell nothing about it
 
 Additionally, tags such as ```<b>``` (bold) and ```<i>``` (italics) define how the text should look, but don't provide any additional meaning to the markup. 
 
-Semantic elements like: ```<form>```, ```<table>```, and ```<article>``` clearly define its content.
+Semantic elements like: ```<form>```, ```<table>```, and ```<article>``` are more clear in defining its content.
 
 
-## Why Should We Use Semantice Elements?
+## Why Should We Use Semantic Elements?
 
-The goal of any website its to communicate information. Aside from the page content, semantic markup gives us an additional opportunity to communicate meaning. 
+The goal of any website is to communicate information. Aside from the page content itself, semantic markup gives us an additional opportunity to communicate meaning. 
 
 Sites that rely on HTML code like: 
 
 ```
-<div id="nav"> 
-<div class="header"> 
-<div id="footer">
+<div id="nav"></div>
+<div class="header"></div>
+<div id="footer"></div>
 ```
 
 to indicate navigation, header, and footer may help the developer but they don't help the browser understand what they are.
@@ -32,9 +32,9 @@ to indicate navigation, header, and footer may help the developer but they don't
 In these case it's more helpful to use:
 
 ```
-<nav>
-<header>
-<footer>
+<nav></nav>
+<header></header>
+<footer></footer>
 ```
 
 Screen readers ignore visual styles and layout added using CSS. Semantic markup can aid screen readers in communicating the structure of the web page to its users.
@@ -46,20 +46,32 @@ Semantic markup can also be helpful to search engines, ensuring that the right p
 There are more than 100 semantic elements so we'll just look at the commonly used tags we haven't already touched on:
 
 ```
-<article>
-<aside>
-<details>
-<figcaption>
-<figure>
-<footer>
-<header>
 <main>
-<mark>
-<nav>
 <section>
-<summary>
-<time>
+<article>
+<nav>
+<header>
+<footer>
+<aside>
+<figure>
+<figcaption>
 ```
+
+### Main 
+
+```
+<header>
+    //logo and probably nav
+</header>
+<main>
+    //pretty much all of your content
+</main>
+<footer>
+    //utility links
+</footer>
+```
+
+The ```<main>``` HTML element represents the main portion of the web page. 
 
 ### Section
 

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 20px;
+        }
+        html,body{
+            padding: 0px;
+            margin: 0px;
+        }
+        header{
+            background: red;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media screen and (max-width: 768px) {
+            header{
+                display: block;
+            }
+        }
+        nav{
+            background: blue;
+        }
+        main{
+            background: orange;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+        @media screen and (max-width: 768px) {
+            main{
+                display: block;
+            }
+        }
+        article{
+            background: green;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        @media screen and (max-width: 768px) {
+            article{
+                display: block;
+            }
+        }
+        article h1{
+            grid-column-end: span 2;
+        }
+        section{
+            background: purple;
+        }
+        aside{
+            background: navy;
+        }
+        footer{
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="">The name of my web page</a>
+        <nav>
+            <ul>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Article Title</h1>
+            <section>
+                <h2>Section title</h2>
+                <h3>Section h3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <ul>
+                    <li>item</li>
+                    <li>item</li>
+                    <li>item</li>
+                </ul>
+                <img src="https://pbs.twimg.com/media/E46CqtPXoAMiXpE?format=jpg&name=small" alt="test" width="100%">
+                <a href="">a link</a>
+            </section>
+            <section>
+                <h2>Section title</h2>
+                <h3>Section h3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <ul>
+                    <li>item</li>
+                    <li>item</li>
+                    <li>item</li>
+                </ul>
+                <img src="https://pbs.twimg.com/media/E46CqtPXoAMiXpE?format=jpg&name=small" alt="test" width="100%">
+                <a href="">a link</a>
+            </section>
+        </article>
+        <aside>
+            <ul>
+                <li><a href="">lnk</a></li>
+                <li><a href="">lnk</a></li>
+                <li><a href="">lnk</a></li>
+                <li><a href="">lnk</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+    </footer>
+</body>
+</html>

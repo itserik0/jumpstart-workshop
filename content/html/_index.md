@@ -27,6 +27,7 @@ Browsers do not display the HTML tags, but use them to interpret the content of 
 
 ## HTML is like lumber
 
-![html is like lumber](images/lumber.jpg)![html is like lumber](images/lumber-house.jpg)
+<!-- ![html is like lumber](images/lumber.jpg) -->
+![html is like lumber](images/lumber-house.jpg)
 
 HTML is used to construct a web page, not style or manipulate it. That will come later. 
