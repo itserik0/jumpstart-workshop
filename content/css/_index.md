@@ -7,7 +7,11 @@ chapter = true
 
 # CSS
 
-CSS stands for **Cascading Style Sheets**. CSS is a style sheet language used for describing the presentation of a document written in HTML. It was designed to enable the separation of presentation and content. If HTML is like lumber, then CSS is interior decorating. 
+CSS stands for **Cascading Style Sheets**. CSS is a style sheet language used for describing the presentation of a document written in HTML. It was designed to enable the separation of presentation and content. 
+
+If HTML is like lumber, then CSS is interior decorating. 
+
+![interior decorating](images/interior-decorating.jpg)
 
 ## Why CSS?
 
