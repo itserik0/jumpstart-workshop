@@ -11,6 +11,10 @@ Thanks for attending the Jumpstart workshop: **Building Blocks of the Web**. Thi
 
 There will be a lot of information. You probably won't retain all of it, but that ok. This is meant as a taste to what available in front-end development. Mastering it doesn't happen in a 2½ hour course. 
 
+## What does this workshop assume?
+
+I assume you are eager to learn more about front-end web development. I am aproaching this working assuming you have little if any web development experience. 
+
 ## What does this workshop cover?
 
 The Building Blocks of the Web portion of the Jumpstart workshop focuses specifically on **front-end** web development. The front-end is what the user can see, the visual layout and interactivity of a web site. It's built using a combination of technologies such as **Hypertext Markup Language (HTML)**, **JavaScript** and **Cascading Style Sheets (CSS)**.
