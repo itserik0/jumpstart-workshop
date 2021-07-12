@@ -31,6 +31,17 @@ The &amp;lt;h1&amp;gt; is the most important heading and is used only once per p
     </item>
     
     <item>
+      <title>Basic Uses</title>
+      <link>https://jumpstart-frontend.netlify.app/javascript/exercise/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/javascript/exercise/</guid>
+      <description>Selecting elements There are 5 ways to select elements on an HTML page:
+document.getElementsByTagName() document.getElementsByClassName() document.getElementById() * document.querySelector() document.querySelectorAll() * Manipulating text &amp;lt;div id=&amp;quot;example&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; document.getElementById(&amp;quot;example&amp;quot;).innerHTML = &amp;quot;Hello!&amp;quot;; &amp;lt;div id=&amp;quot;example&amp;quot;&amp;gt;Hello!&amp;lt;/div&amp;gt; Change Styling document.getElementById(&amp;quot;example&amp;quot;).style.fontSize = &amp;quot;25px&amp;quot;; document.getElementById(&amp;quot;example&amp;quot;).style.color = &amp;quot;red&amp;quot;; document.getElementById(&amp;quot;example&amp;quot;).style.backgroundColor = &amp;quot;yellow&amp;quot;; Change Attributes document.getElementById(&amp;quot;example-image&amp;quot;).src = &amp;quot;picture.gif&amp;quot;; or
+document.getElementById(&amp;quot;example&amp;quot;).classList.add(&amp;quot;my_class_name&amp;quot;); Events and Interactivity Events are things that happen in the browser — a button being clicked, a page loading, a video playing, etc. — in response to which we can run blocks of code.</description>
+    </item>
+    
+    <item>
       <title>What&#39;s a Web Page?</title>
       <link>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
@@ -42,6 +53,20 @@ No Server Needed You&amp;rsquo;ll notice the example web page is running on its 
     </item>
     
     <item>
+      <title>Exercise</title>
+      <link>https://jumpstart-frontend.netlify.app/javascript/basic-uses/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/javascript/basic-uses/</guid>
+      <description>Let&amp;rsquo;s have some fun So far this workshop has been a lot of information. Let&amp;rsquo;s have some fun and do some thing using Javascript.
+An Alert somewhere in index.html
+&amp;lt;button id=&amp;quot;my-button&amp;quot;&amp;gt;click me&amp;lt;/button&amp;gt; in script.js
+document.getElementById(&amp;quot;my-button&amp;quot;).addEventListener(&amp;quot;click&amp;quot;, handle_button_click); function handle_button_click(){ alert(&amp;quot;I am an alert&amp;quot;); } Change text somewhere in index.html
+&amp;lt;p&amp;gt;Hello. My name is &amp;lt;span id=&amp;quot;persons-name&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;.&amp;lt;/p&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; id=&amp;quot;my-input&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;button id=&amp;quot;my-button&amp;quot;&amp;gt;add my name&amp;lt;/button&amp;gt; in script.js
+document.getElementById(&amp;quot;my-button&amp;quot;).addEventListener(&amp;quot;click&amp;quot;, handle_button_click); function handle_button_click(){ document.getElementById(&amp;quot;persons-name&amp;quot;).innerText = document.</description>
+    </item>
+    
+    <item>
       <title>Semantic Elements</title>
       <link>https://jumpstart-frontend.netlify.app/html/semantic-elements/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
@@ -50,8 +75,8 @@ No Server Needed You&amp;rsquo;ll notice the example web page is running on its 
       <description>What are Semantic Elements? Semantic elements clearly describe their meaning to the browser and the developer.
 Non-semantic elements like: &amp;lt;div&amp;gt; and &amp;lt;span&amp;gt; - tell nothing about its content.
 Additionally, tags such as &amp;lt;b&amp;gt; (bold) and &amp;lt;i&amp;gt; (italics) define how the text should look, but don&amp;rsquo;t provide any additional meaning to the markup.
-Semantic elements like: &amp;lt;form&amp;gt;, &amp;lt;table&amp;gt;, and &amp;lt;article&amp;gt; clearly define its content.
-Why Should We Use Semantice Elements? The goal of any website its to communicate information.</description>
+Semantic elements like: &amp;lt;form&amp;gt;, &amp;lt;table&amp;gt;, and &amp;lt;article&amp;gt; are more clear in defining its content.
+Why Should We Use Semantic Elements?</description>
     </item>
     
     <item>
@@ -67,13 +92,13 @@ Why Should We Use Semantice Elements? The goal of any website its to communicate
     </item>
     
     <item>
-      <title>CSS Excercise #1</title>
+      <title>CSS - Excercise #1</title>
       <link>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
       <guid>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</guid>
-      <description>Add some styles We&amp;rsquo;ll spend the next ten minutes on the following:
- Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements.  background-color border font-size font-weight text-align text-decoration margin padding width height    New CSS File  In Visual Studio create a new file named styles.css. Include the new file inside your index.html file. Add the styles from above to the new styles.</description>
+      <description>1. Add some styles We&amp;rsquo;ll spend the next ten minutes on the following:
+ Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements.  background-color border font-size font-weight text-align text-decoration margin padding width height    2. New CSS File  In Visual Studio create a new file named styles.css. Include the new file inside your index.html file.</description>
     </item>
     
     <item>
@@ -94,18 +119,8 @@ The alt text is important for users who use screen readers (please don&amp;rsquo
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
       <guid>https://jumpstart-frontend.netlify.app/css/layout-exercise-2/</guid>
-      <description>A typical web page layout looks something like this.
-Let&amp;rsquo;s work together to turn our existing HTML page into something like this.</description>
-    </item>
-    
-    <item>
-      <title>Responsive Web Design</title>
-      <link>https://jumpstart-frontend.netlify.app/css/responsive/</link>
-      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
-      
-      <guid>https://jumpstart-frontend.netlify.app/css/responsive/</guid>
-      <description>One design. Many screens. Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone.
-Media Queries </description>
+      <description>Reset styles Browsers come with default styles for some elements, and these defaults vary among browsers. The first thing many websites do is to add reset styles to remove them. Let&amp;rsquo;s start with adding this to our styles:
+*{ padding: 20px; } html,body{ padding: 0px; margin: 0px; } Let&amp;rsquo;s see what the layout looks like Let&amp;rsquo;s go back to the html page we made. Right now it probably looks like a confusing bunch of text.</description>
     </item>
     
     <item>
@@ -119,13 +134,36 @@ Media Queries </description>
     </item>
     
     <item>
+      <title>Responsive Web Design</title>
+      <link>https://jumpstart-frontend.netlify.app/css/responsive/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/responsive/</guid>
+      <description>One design. Many screens. Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone.
+Media Queries We can target the various sizes of these devices using media queries.
+Media queries do not target a device, they target a screen size.
+The @media rule does that like this:
+div.example { background: red; } @media screen and (max-width: 600px) { div.</description>
+    </item>
+    
+    <item>
       <title>HTML Exercise</title>
       <link>https://jumpstart-frontend.netlify.app/html/html-exercise/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
       <guid>https://jumpstart-frontend.netlify.app/html/html-exercise/</guid>
       <description>Let&amp;rsquo;s create our own basic web page and have some fun.
-What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  Our First Web Page  On your desktop create a folder and name it jumpstart. Open Visual Studio Code Inside Visual Studio Code open the jumpstart directory (File &amp;raquo; Open). Inside jumpstart create a file named index.html. Inside index.html add some text. Open index.</description>
+What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  1. Our First Web Page  On your desktop create a folder and name it jumpstart. Open Visual Studio Code Inside Visual Studio Code open the jumpstart directory (File &amp;raquo; Open). Inside jumpstart create a file named index.html. Inside index.html add some text.</description>
+    </item>
+    
+    <item>
+      <title>Responsive - Exercise #3</title>
+      <link>https://jumpstart-frontend.netlify.app/css/responsive-exercise-3/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/responsive-exercise-3/</guid>
+      <description>Applying Media Queries Let&amp;rsquo;s apply a media query to the &amp;lt;header&amp;gt;. The goal here is to make the header elements (the logo and the nav) stack up when the screen is below 768px.
+header{ background: red; display: grid; grid-template-columns: 1fr 1fr; } @media screen and (max-width: 768px) { header{ display: block; } } The way to test this is to make the browser window skinny. Some browsers do have a responsive mode.</description>
     </item>
     
   </channel>

@@ -32,13 +32,13 @@ p { color: red; } h2 { color: blue; } ID Selector The element on the page with t
     </item>
     
     <item>
-      <title>CSS Excercise #1</title>
+      <title>CSS - Excercise #1</title>
       <link>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
       <guid>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</guid>
-      <description>Add some styles We&amp;rsquo;ll spend the next ten minutes on the following:
- Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements.  background-color border font-size font-weight text-align text-decoration margin padding width height    New CSS File  In Visual Studio create a new file named styles.css. Include the new file inside your index.html file. Add the styles from above to the new styles.</description>
+      <description>1. Add some styles We&amp;rsquo;ll spend the next ten minutes on the following:
+ Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements.  background-color border font-size font-weight text-align text-decoration margin padding width height    2. New CSS File  In Visual Studio create a new file named styles.css. Include the new file inside your index.html file.</description>
     </item>
     
     <item>
@@ -47,8 +47,8 @@ p { color: red; } h2 { color: blue; } ID Selector The element on the page with t
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
       <guid>https://jumpstart-frontend.netlify.app/css/layout-exercise-2/</guid>
-      <description>A typical web page layout looks something like this.
-Let&amp;rsquo;s work together to turn our existing HTML page into something like this.</description>
+      <description>Reset styles Browsers come with default styles for some elements, and these defaults vary among browsers. The first thing many websites do is to add reset styles to remove them. Let&amp;rsquo;s start with adding this to our styles:
+*{ padding: 20px; } html,body{ padding: 0px; margin: 0px; } Let&amp;rsquo;s see what the layout looks like Let&amp;rsquo;s go back to the html page we made. Right now it probably looks like a confusing bunch of text.</description>
     </item>
     
     <item>
@@ -58,7 +58,20 @@ Let&amp;rsquo;s work together to turn our existing HTML page into something like
       
       <guid>https://jumpstart-frontend.netlify.app/css/responsive/</guid>
       <description>One design. Many screens. Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone.
-Media Queries </description>
+Media Queries We can target the various sizes of these devices using media queries.
+Media queries do not target a device, they target a screen size.
+The @media rule does that like this:
+div.example { background: red; } @media screen and (max-width: 600px) { div.</description>
+    </item>
+    
+    <item>
+      <title>Responsive - Exercise #3</title>
+      <link>https://jumpstart-frontend.netlify.app/css/responsive-exercise-3/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/css/responsive-exercise-3/</guid>
+      <description>Applying Media Queries Let&amp;rsquo;s apply a media query to the &amp;lt;header&amp;gt;. The goal here is to make the header elements (the logo and the nav) stack up when the screen is below 768px.
+header{ background: red; display: grid; grid-template-columns: 1fr 1fr; } @media screen and (max-width: 768px) { header{ display: block; } } The way to test this is to make the browser window skinny. Some browsers do have a responsive mode.</description>
     </item>
     
   </channel>

@@ -27,8 +27,8 @@ The &amp;lt;h1&amp;gt; is the most important heading and is used only once per p
       <description>What are Semantic Elements? Semantic elements clearly describe their meaning to the browser and the developer.
 Non-semantic elements like: &amp;lt;div&amp;gt; and &amp;lt;span&amp;gt; - tell nothing about its content.
 Additionally, tags such as &amp;lt;b&amp;gt; (bold) and &amp;lt;i&amp;gt; (italics) define how the text should look, but don&amp;rsquo;t provide any additional meaning to the markup.
-Semantic elements like: &amp;lt;form&amp;gt;, &amp;lt;table&amp;gt;, and &amp;lt;article&amp;gt; clearly define its content.
-Why Should We Use Semantice Elements? The goal of any website its to communicate information.</description>
+Semantic elements like: &amp;lt;form&amp;gt;, &amp;lt;table&amp;gt;, and &amp;lt;article&amp;gt; are more clear in defining its content.
+Why Should We Use Semantic Elements?</description>
     </item>
     
     <item>
@@ -60,7 +60,7 @@ The alt text is important for users who use screen readers (please don&amp;rsquo
       
       <guid>https://jumpstart-frontend.netlify.app/html/html-exercise/</guid>
       <description>Let&amp;rsquo;s create our own basic web page and have some fun.
-What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  Our First Web Page  On your desktop create a folder and name it jumpstart. Open Visual Studio Code Inside Visual Studio Code open the jumpstart directory (File &amp;raquo; Open). Inside jumpstart create a file named index.html. Inside index.html add some text. Open index.</description>
+What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  1. Our First Web Page  On your desktop create a folder and name it jumpstart. Open Visual Studio Code Inside Visual Studio Code open the jumpstart directory (File &amp;raquo; Open). Inside jumpstart create a file named index.html. Inside index.html add some text.</description>
     </item>
     
   </channel>
