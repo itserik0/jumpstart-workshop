@@ -21,6 +21,9 @@ pre{
     margin: 0px 0px 2rem;
 }
 
+#body table img{
+    margin: 0px;
+}
 th,td{
     text-align: left !important;
 }

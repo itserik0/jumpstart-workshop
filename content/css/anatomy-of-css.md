@@ -8,7 +8,7 @@ weight = 1
 
 ### CSS Ruleset
 
-![CSS anatomy](../images/css-declaration-small.png)
+![CSS anatomy](../images/ruleset.png)
 
 To modify multiple property values in one ruleset, write them separated by semicolons, like this:
 

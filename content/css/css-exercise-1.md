@@ -10,7 +10,7 @@ We'll spend the next ten minutes on the following:
 
 1. Open your **index.html** file.
 2. Add a ```<style>``` tag inside the ```<head>``` tag.
-3. Try out the following properties on your other elements. 
+3. Try out the following properties on your other elements. (linked for reference)
    1. [background-color](https://www.w3schools.com/cssref/pr_background-color.asp)
    2. [border](https://www.w3schools.com/css/css_border.asp)
    3. [font-size](https://www.w3schools.com/cssref/pr_font_font-size.asp)
@@ -25,6 +25,6 @@ We'll spend the next ten minutes on the following:
 ### 2. New CSS File
 
 1. In **Visual Studio** create a new file named **styles.css**.
-2. Include the new file inside your **index.html** file.
+2. Include the new file inside your **index.html** file. ```<link rel="stylesheet" src="styles.css" />```
 3. Add the styles from above to the new **styles.css** file and remove the ```<style>``` tag.
 4. When you refresh the **index.html** page, the styles should stay the same.

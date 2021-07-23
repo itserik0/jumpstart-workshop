@@ -20,13 +20,22 @@ Let's create our own basic web page and have some fun.
 5. Inside **index.html** add some text.
 6. Open **index.html** in your web browser.
 
+or go [here](https://github.com/itserik0/jumpstart-starter-repo)
+
 You should see this:
 
 ![index.html page](../images/index_dot_html.png)
 
 You just made a web page!
 
-### 2. Use HTML
+### 2. Let's Make a Complete Page
+
+Let's start with a complete web document. To your index.html file:
+1. Add the ```<!DOCTYPE html>```
+2. Add ```<html>```,  ```<head>```, and ```<body>``` tags
+3. Put the html content from the wireframe into a ```<body>``` tag
+
+### 3. Use HTML
 
 Now let's use some html. Spend the next fifteen minutes building the following wireframe in your index.html page.
 
@@ -34,15 +43,14 @@ Feel free to reference the [semantic elements](/html/semantic-elements/) page or
 
 If you need help with images use the [embedding things](/html/embedding-things/) page. If you need an image you can get one [here](https://pixabay.com/). To get the path to the image right click on it and choose "Copy Image Address" or "Copy Image Link".
 
-### Build this wireframe
+We'll do the first few elements together.
+
+#### Build this wireframe
+
+I would suggest instead of using generic content make it fun by creating an actual web site. Like a *food blog*, *all about jellyfish* , or anything of your own choosing.
 
 Elements in each box are its child elements. 
 
 ![Wireframe](../images/wireframe.jpg)
 
-### 3. Let's Complete the Page
-
-Next we'll put this all together into a complete web document. To your index.html file:
-1. Add the doctype
-2. Add ```<html>``` and ```<head>``` tags
-3. Put the html content from the wireframe into a ```<body>``` tag
+## Let's take a 15 min break

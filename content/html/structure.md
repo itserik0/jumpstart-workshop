@@ -33,7 +33,7 @@ The ```<html>``` element is the root element of an HTML page.
 
 The ```<head>``` element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed.
 
-The HTML ```<head>``` element is a container for the following elements: ```<title>, <style>, <meta>, <link>, <script>, and <base>```.
+The HTML ```<head>``` element is a container for the following elements: ```<title>, <style>, <meta>, <link>, and <script>```.
 
 ### Title
 

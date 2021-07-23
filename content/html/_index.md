@@ -23,6 +23,19 @@ and provide information about document text and may include other tags as sub-el
 ```
 These tags can be used for content such as headings, paragraphs, lists, links, quotes and other items. Tags such as ```<img />```,  ```<input />```, ```<audio>``` directly introduce content into the page. 
 
+### Closing vs. Self-closing tags
+
+If the element contains other content, it ends with a closing tag.
+
+For example:
+```
+<p>some text and stuff.</p>
+```
+
+```
+<img src="image.jpg" />
+```
+
 Browsers do not display the HTML tags, but use them to interpret the content of the page.
 
 ## HTML is like lumber
