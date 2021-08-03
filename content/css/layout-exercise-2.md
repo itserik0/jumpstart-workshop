@@ -36,7 +36,7 @@ We can get a better idea of what the layout looks like using CSS.
    - footer
 3. If your HTML is done correctly it should now look just as ugly as this:
 
-![colorful layout](../images/colored-layout.png)
+![colorful layout](../images/Terrible_Recipes_1.png)
 
 ### The Grid
 

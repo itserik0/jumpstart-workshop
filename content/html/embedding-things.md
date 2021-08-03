@@ -11,7 +11,7 @@ We can embed many types of media and other content into an HTML page.
 Embed an image in a page.
 
 ```
-<img src="image.jpg" alt="alt text" width="500px" height="200px">
+<img src="image.jpg" alt="alt text" width="500px" height="200px" />
 ```
 
 ![I'm a web site](../images/im-a-website.jpg)

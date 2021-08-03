@@ -109,7 +109,7 @@ Why Should We Use Semantic Elements?</description>
       <guid>https://jumpstart-frontend.netlify.app/html/embedding-things/</guid>
       <description>We can embed many types of media and other content into an HTML page.
 Images Embed an image in a page.
-&amp;lt;img src=&amp;quot;image.jpg&amp;quot; alt=&amp;quot;alt text&amp;quot; width=&amp;quot;500px&amp;quot; height=&amp;quot;200px&amp;quot;&amp;gt; The &amp;lt;img&amp;gt; tag has many attributes. All of them are optional except the src which defines the path or source of the image. If width and height are omitted the image will default to the actual image size.
+&amp;lt;img src=&amp;quot;image.jpg&amp;quot; alt=&amp;quot;alt text&amp;quot; width=&amp;quot;500px&amp;quot; height=&amp;quot;200px&amp;quot; /&amp;gt; The &amp;lt;img&amp;gt; tag has many attributes. All of them are optional except the src which defines the path or source of the image. If width and height are omitted the image will default to the actual image size.
 The alt text is important for users who use screen readers (please don&amp;rsquo;t ignore these people!</description>
     </item>
     
@@ -153,7 +153,9 @@ div.example { background: red; } @media screen and (max-width: 600px) { div.</de
       
       <guid>https://jumpstart-frontend.netlify.app/html/html-exercise/</guid>
       <description>Let&amp;rsquo;s create our own basic web page and have some fun.
-What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  1. Our First Web Page  On your desktop create a folder and name it jumpstart. Open Visual Studio Code Inside Visual Studio Code open the jumpstart directory (File &amp;raquo; Open). Inside jumpstart create a file named index.html. Inside index.html add some text.</description>
+What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  1. Our First Web Page The files You should have a repo you created in yesterday&amp;rsquo;s Github workshop. If you do please open the index.html file now.
+If you cannot access that file do the following:
+ On your desktop create a folder and name it jumpstart.</description>
     </item>
     
     <item>

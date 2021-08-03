@@ -41,7 +41,7 @@ To access the DOM you don't have to do anything specific. It's done by the brows
 <script src="script.js"></script>
 ```
 
-Like CSS the most desireable way to include javascript is through an external file. There are a numbers of reasons for this but the primary reasons are:
+Like CSS the most desireable way to include javascript is through an external file. There are a number of reasons for this but the primary reasons are:
 - Same file can be resused across multiple pages.
 - Reduces the amount of code on a single page.
 - Allows the browser to cache the file if which will speed up future page loads.
