@@ -7,13 +7,13 @@ chapter = true
 
 # Introduction
 
-Thanks for attending the Jumpstart workshop: **Building Blocks of the Web**. This workshop is meant to help you understand the basic building blocks of a web page. 
+This workshops is about the **Building Blocks of the Web**. It is meant to give you a basic understanding of front-end web development by learning the basic construction of a web page. 
 
-There will be a lot of information. You probably won't retain all of it, but that ok. This is meant as a taste to what available in front-end development. Mastering it doesn't happen in a 2½ hour course. 
+There will be a lot of information and you probably won't retain all of it, but that's ok. This is meant to be a taste of what is available in front-end development. Mastering it doesn't happen in a 2½ hour course. 
 
 ## What does this workshop assume?
 
-I assume you are eager to learn more about front-end web development. I am aproaching this working assuming you have little if any web development experience. 
+I assume you are eager to learn more about front-end web development. All level of experience are welcome here but we are approcaching this workshop assuming attendees have little if any web development experience. 
 
 ## What does this workshop cover?
 
