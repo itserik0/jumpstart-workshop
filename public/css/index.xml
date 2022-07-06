@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSS on Jumpstart Academy: Building Blocks of the Web</title>
-    <link>https://jumpstart-frontend.netlify.app/css/</link>
+    <link>http://localhost/dev/jumpstart/public/css/</link>
     <description>Recent content in CSS on Jumpstart Academy: Building Blocks of the Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jun 2021 15:50:06 -0400</lastBuildDate><atom:link href="https://jumpstart-frontend.netlify.app/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 15:50:06 -0400</lastBuildDate><atom:link href="http://localhost/dev/jumpstart/public/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anatomy of CSS</title>
-      <link>https://jumpstart-frontend.netlify.app/css/anatomy-of-css/</link>
+      <link>http://localhost/dev/jumpstart/public/css/anatomy-of-css/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/css/anatomy-of-css/</guid>
+      <guid>http://localhost/dev/jumpstart/public/css/anatomy-of-css/</guid>
       <description>Anatomy of CSS CSS Ruleset To modify multiple property values in one ruleset, write them separated by semicolons, like this:
 p { color: red; width: 500px; border: 1px solid black; } Multiple elements To select multiple elements with one ruleset
 h1, p, a { color: red; } Types of Selectors Element selector All HTML elements of the specified type.
@@ -21,10 +21,10 @@ p { color: red; } h2 { color: blue; } ID Selector The element on the page with t
     
     <item>
       <title>Using CSS</title>
-      <link>https://jumpstart-frontend.netlify.app/css/using-css/</link>
+      <link>http://localhost/dev/jumpstart/public/css/using-css/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/css/using-css/</guid>
+      <guid>http://localhost/dev/jumpstart/public/css/using-css/</guid>
       <description>Using CSS CSS can be added to an HTML documents in 3 ways:
 1. Inline By using the style attribute inside HTML elements
 &amp;lt;h1 style=&amp;quot;color:red;&amp;quot;&amp;gt;A Red Heading&amp;lt;/h1&amp;gt; &amp;lt;p style=&amp;quot;color:pink;&amp;quot;&amp;gt;A pink paragraph.&amp;lt;/p&amp;gt; 2. Internal By using a &amp;lt;style&amp;gt; element in the &amp;lt;head&amp;gt; section
@@ -33,30 +33,30 @@ p { color: red; } h2 { color: blue; } ID Selector The element on the page with t
     
     <item>
       <title>CSS - Excercise #1</title>
-      <link>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</link>
+      <link>http://localhost/dev/jumpstart/public/css/css-exercise-1/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</guid>
+      <guid>http://localhost/dev/jumpstart/public/css/css-exercise-1/</guid>
       <description>1. Add some styles We&amp;rsquo;ll spend the next ten minutes on the following:
  Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements. (linked for reference)  background-color border font-size font-weight text-align text-decoration margin padding width height    2. New CSS File  In Visual Studio create a new file named styles.css. Include the new file inside your index.</description>
     </item>
     
     <item>
       <title>Layout - CSS Exercise #2</title>
-      <link>https://jumpstart-frontend.netlify.app/css/layout-exercise-2/</link>
+      <link>http://localhost/dev/jumpstart/public/css/layout-exercise-2/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/css/layout-exercise-2/</guid>
+      <guid>http://localhost/dev/jumpstart/public/css/layout-exercise-2/</guid>
       <description>Reset styles Browsers come with default styles for some elements, and these defaults vary among browsers. The first thing many websites do is to add reset styles to remove them. Let&amp;rsquo;s start with adding this to our styles:
 *{ padding: 20px; } html,body{ padding: 0px; margin: 0px; } Let&amp;rsquo;s see what the layout looks like Let&amp;rsquo;s go back to the html page we made. Right now it probably looks like a confusing bunch of text.</description>
     </item>
     
     <item>
       <title>Responsive Web Design</title>
-      <link>https://jumpstart-frontend.netlify.app/css/responsive/</link>
+      <link>http://localhost/dev/jumpstart/public/css/responsive/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/css/responsive/</guid>
+      <guid>http://localhost/dev/jumpstart/public/css/responsive/</guid>
       <description>One design. Many screens. Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone.
 Media Queries We can target the various sizes of these devices using media queries.
 Media queries do not target a device, they target a screen size.
@@ -66,10 +66,10 @@ div.example { background: red; } @media screen and (max-width: 600px) { div.</de
     
     <item>
       <title>Responsive - Exercise #3</title>
-      <link>https://jumpstart-frontend.netlify.app/css/responsive-exercise-3/</link>
+      <link>http://localhost/dev/jumpstart/public/css/responsive-exercise-3/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/css/responsive-exercise-3/</guid>
+      <guid>http://localhost/dev/jumpstart/public/css/responsive-exercise-3/</guid>
       <description>Applying Media Queries Let&amp;rsquo;s apply a media query to the &amp;lt;header&amp;gt;. The goal here is to make the header elements (the logo and the nav) stack up when the screen is below 768px.
 header{ background: red; display: grid; grid-template-columns: 1fr 1fr; } @media screen and (max-width: 768px) { header{ display: block; } } The way to test this is to make the browser window skinny. Some browsers do have a responsive mode.</description>
     </item>

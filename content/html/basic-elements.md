@@ -8,7 +8,7 @@ weight = 1
 
 HTML headings are defined with the ```<h1>``` to ```<h6>``` tags.
 
-The ```<h1>``` is the most important heading and is used only once per page. ```<h2>``` through ```<h6>``` are the next most important headings and can be used as many times as needed on a page.
+The ```<h1>``` is the most important heading. It acts as the title of your document and is used only once per page. ```<h2>``` through ```<h6>``` are the next most important headings and can be used as many times as necessary in your content.
 
 ```
 <h1>This is the page title</h1>
@@ -36,11 +36,9 @@ Links are defined with the ```<a>``` tag:
 <a href="https://www.website.com/">Link to website.com</a>
 ```
 
-This tag introduces element attributes. Attributes are used to provide additional information about HTML elements.
+This tag introduces element attributes. Here the link's destination is specified in the ```href``` attribute. Attributes are used to provide additional information about HTML elements.
 
-The link's destination is specified in the ```href``` attribute. 
-
-Each element has a predefined attribute as defined by the W3C (World Wide Web Consortium). Custom attributes have no effect on the element. 
+Element can have dozens of different attributes. Each element has a predefined attribute as defined by the W3C (World Wide Web Consortium). Custom attributes have no effect on the element. 
 
 ### Lists
 
@@ -128,5 +126,5 @@ HTML comments help to document your code. They are not displayed in the browser.
 You can also comment out code if you need to save it for later.
 
 ```
-<!-- <img src="christmas-photo.jpg" width="25px" alt="Mall Santa endures another child on his lap" /> -->
+<!-- <img src="christmas-photo.jpg" width="25px" alt="Mall Santa endures screaming child on his lap" /> -->
 ```

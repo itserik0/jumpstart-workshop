@@ -17,7 +17,11 @@ Semantic elements like: ```<form>```, ```<table>```, and ```<article>``` are mor
 
 ## Why Should We Use Semantic Elements?
 
-The goal of any website is to communicate information. Aside from the page content itself, semantic markup gives us an additional opportunity to communicate meaning. 
+### Accessibility
+
+The goal of any website is to communicate information, to everyone. Not all users consume information the same way. When websites and web tools are properly designed and coded, people with disabilities can use them. Currently, many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.
+
+Making the web accessible benefits individuals, businesses, and society.
 
 Sites that rely on HTML code like: 
 
@@ -37,7 +41,7 @@ In these case it's more helpful to use:
 <footer></footer>
 ```
 
-Screen readers ignore visual styles and layout added using CSS. Semantic markup can aid screen readers in communicating the structure of the web page to its users.
+Aside from the page content itself, semantic markup gives us an additional opportunity to communicate meaning.  For example, screen readers ignore visual styles and layout added using CSS. Semantic markup can aid screen readers in communicating the structure of the web page to its users.
 
 Semantic markup can also be helpful to search engines, ensuring that the right pages are delivered for the right queries. 
  
@@ -134,7 +138,7 @@ The ```<header>``` element represents a container for introductory content or a 
 </header>
 ```
 
-### Footer&nbsp;
+### Footer
 
 The ```<footer>``` element defines a footer for a document or section.
 

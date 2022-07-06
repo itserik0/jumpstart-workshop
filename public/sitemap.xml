@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jumpstart-frontend.netlify.app/css/anatomy-of-css/</loc>
+    <loc>http://localhost/dev/jumpstart/public/css/anatomy-of-css/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/html/basic-elements/</loc>
+    <loc>http://localhost/dev/jumpstart/public/html/basic-elements/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/javascript/exercise/</loc>
+    <loc>http://localhost/dev/jumpstart/public/javascript/exercise/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</loc>
+    <loc>http://localhost/dev/jumpstart/public/introduction/whats-a-webpage/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/introduction/</loc>
+    <loc>http://localhost/dev/jumpstart/public/introduction/</loc>
     <lastmod>2021-06-17T16:09:58-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/javascript/basic-uses/</loc>
+    <loc>http://localhost/dev/jumpstart/public/javascript/basic-uses/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/html/semantic-elements/</loc>
+    <loc>http://localhost/dev/jumpstart/public/html/semantic-elements/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/css/using-css/</loc>
+    <loc>http://localhost/dev/jumpstart/public/css/using-css/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</loc>
+    <loc>http://localhost/dev/jumpstart/public/css/css-exercise-1/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/html/embedding-things/</loc>
+    <loc>http://localhost/dev/jumpstart/public/html/embedding-things/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/html/</loc>
+    <loc>http://localhost/dev/jumpstart/public/html/</loc>
     <lastmod>2021-06-17T15:59:10-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/css/layout-exercise-2/</loc>
+    <loc>http://localhost/dev/jumpstart/public/css/layout-exercise-2/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/html/structure/</loc>
+    <loc>http://localhost/dev/jumpstart/public/html/structure/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/css/responsive/</loc>
+    <loc>http://localhost/dev/jumpstart/public/css/responsive/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/css/</loc>
+    <loc>http://localhost/dev/jumpstart/public/css/</loc>
     <lastmod>2021-06-17T15:50:06-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/html/html-exercise/</loc>
+    <loc>http://localhost/dev/jumpstart/public/html/html-exercise/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/css/responsive-exercise-3/</loc>
+    <loc>http://localhost/dev/jumpstart/public/css/responsive-exercise-3/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/javascript/</loc>
+    <loc>http://localhost/dev/jumpstart/public/javascript/</loc>
     <lastmod>2021-06-17T15:59:10-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/glossary/</loc>
+    <loc>http://localhost/dev/jumpstart/public/glossary/</loc>
     <lastmod>2021-06-17T15:59:10-04:00</lastmod>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/</loc>
+    <loc>http://localhost/dev/jumpstart/public/</loc>
     <lastmod>2021-06-17T16:34:21-04:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/categories/</loc>
+    <loc>http://localhost/dev/jumpstart/public/categories/</loc>
   </url><url>
-    <loc>https://jumpstart-frontend.netlify.app/tags/</loc>
+    <loc>http://localhost/dev/jumpstart/public/tags/</loc>
   </url>
 </urlset>

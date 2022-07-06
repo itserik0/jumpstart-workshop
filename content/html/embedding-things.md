@@ -4,7 +4,7 @@ date = 2021-06-17T16:34:21-04:00
 weight = 3
 +++
 
-We can embed many types of media and other content into an HTML page.
+Many types of media and other content can be embedded directly into an HTML page.
 
 ### Images
 
@@ -18,7 +18,7 @@ Embed an image in a page.
 
 The ```<img>``` tag has many attributes. All of them are optional except the ```src``` which defines the path or source of the image. If ```width``` and ```height``` are omitted the image will default to the actual image size. 
 
-The alt text is important for users who use screen readers (please don't ignore these people!). The alt text should be a short description of what the image is trying to convey. For example the alt text for the above image would be **Ralph Wiggum waves in front of school lockers believing he's a web page**. Search engines like alt text as well. If you are looking for a place to add more keywords for your content alt text is a good place. 
+The ```alt text``` is important for users who use screen readers (please don't ignore these people!). The alt text should be a short description of what the image is trying to convey. For example the alt text for the above image would be **Ralph Wiggum waves in front of school lockers believing he's a web page**. Search engines like alt text as well. If you are looking for a place to add more keywords for your content alt text is a good place. 
 
 Another helpful attribute is ```loading```. If you set the loading attribute to **lazy** ```loading="lazy"``` then the image will not be loaded until the users scrolls down to the image. This is helpful for pages with lots of images because the content will load faster and all page functionality will be availbele sooner because the page doesn't have to wait to load a large number of images. Images are typically the largest files and take the longest to download.
 

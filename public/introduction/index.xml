@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Jumpstart Academy: Building Blocks of the Web</title>
-    <link>https://jumpstart-frontend.netlify.app/introduction/</link>
+    <link>http://localhost/dev/jumpstart/public/introduction/</link>
     <description>Recent content in Introduction on Jumpstart Academy: Building Blocks of the Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jun 2021 16:09:58 -0400</lastBuildDate><atom:link href="https://jumpstart-frontend.netlify.app/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 16:09:58 -0400</lastBuildDate><atom:link href="http://localhost/dev/jumpstart/public/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s a Web Page?</title>
-      <link>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</link>
+      <link>http://localhost/dev/jumpstart/public/introduction/whats-a-webpage/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</guid>
-      <description>The very basic element of a web page is a text document written in HTML (Hyper Text Markup Language). A browser runs the web page file and renders the HTML markup.
+      <guid>http://localhost/dev/jumpstart/public/introduction/whats-a-webpage/</guid>
+      <description>At the most basic level, a web page consists of a text document and a web browser. The text document, or your content, is written in a language called HTML (Hyper Text Markup Language). Your browser is able to read that file and render the HTML markup.
 The file The HTML inside the file &amp;lt;p&amp;gt;Hello.&amp;lt;/p&amp;gt; The file opened in a web browser That&amp;rsquo;s it. That&amp;rsquo;s a web page.
-No Server Needed You&amp;rsquo;ll notice the example web page is running on its own. Since front end languages are rendered in the browser you don&amp;rsquo;t need to have any servers to render the code or compilers to translate anything.</description>
+No Server Needed You&amp;rsquo;ll notice the example web page is running on its own.</description>
     </item>
     
   </channel>

@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTML on Jumpstart Academy: Building Blocks of the Web</title>
-    <link>https://jumpstart-frontend.netlify.app/html/</link>
+    <link>http://localhost/dev/jumpstart/public/html/</link>
     <description>Recent content in HTML on Jumpstart Academy: Building Blocks of the Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jun 2021 15:59:10 -0400</lastBuildDate><atom:link href="https://jumpstart-frontend.netlify.app/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 15:59:10 -0400</lastBuildDate><atom:link href="http://localhost/dev/jumpstart/public/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Elements</title>
-      <link>https://jumpstart-frontend.netlify.app/html/basic-elements/</link>
+      <link>http://localhost/dev/jumpstart/public/html/basic-elements/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/html/basic-elements/</guid>
+      <guid>http://localhost/dev/jumpstart/public/html/basic-elements/</guid>
       <description>Headings HTML headings are defined with the &amp;lt;h1&amp;gt; to &amp;lt;h6&amp;gt; tags.
-The &amp;lt;h1&amp;gt; is the most important heading and is used only once per page. &amp;lt;h2&amp;gt; through &amp;lt;h6&amp;gt; are the next most important headings and can be used as many times as needed on a page.
+The &amp;lt;h1&amp;gt; is the most important heading. It acts as the title of your document and is used only once per page. &amp;lt;h2&amp;gt; through &amp;lt;h6&amp;gt; are the next most important headings and can be used as many times as necessary in your content.
 &amp;lt;h1&amp;gt;This is the page title&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;This is the second heading&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;This is the third heading&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;This is the fourth heading&amp;lt;/h4&amp;gt; &amp;lt;h5&amp;gt;This is the fifth heading&amp;lt;/h5&amp;gt; &amp;lt;h6&amp;gt;This is the sixth heading&amp;lt;/h6&amp;gt; Paragraphs Paragraphs are defined with the &amp;lt;p&amp;gt; tag:</description>
     </item>
     
     <item>
       <title>Semantic Elements</title>
-      <link>https://jumpstart-frontend.netlify.app/html/semantic-elements/</link>
+      <link>http://localhost/dev/jumpstart/public/html/semantic-elements/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/html/semantic-elements/</guid>
+      <guid>http://localhost/dev/jumpstart/public/html/semantic-elements/</guid>
       <description>What are Semantic Elements? Semantic elements clearly describe their meaning to the browser and the developer.
 Non-semantic elements like: &amp;lt;div&amp;gt; and &amp;lt;span&amp;gt; - tell nothing about its content.
 Additionally, tags such as &amp;lt;b&amp;gt; (bold) and &amp;lt;i&amp;gt; (italics) define how the text should look, but don&amp;rsquo;t provide any additional meaning to the markup.
@@ -33,11 +33,11 @@ Why Should We Use Semantic Elements?</description>
     
     <item>
       <title>Embedding Things</title>
-      <link>https://jumpstart-frontend.netlify.app/html/embedding-things/</link>
+      <link>http://localhost/dev/jumpstart/public/html/embedding-things/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/html/embedding-things/</guid>
-      <description>We can embed many types of media and other content into an HTML page.
+      <guid>http://localhost/dev/jumpstart/public/html/embedding-things/</guid>
+      <description>Many types of media and other content can be embedded directly into an HTML page.
 Images Embed an image in a page.
 &amp;lt;img src=&amp;quot;image.jpg&amp;quot; alt=&amp;quot;alt text&amp;quot; width=&amp;quot;500px&amp;quot; height=&amp;quot;200px&amp;quot; /&amp;gt; The &amp;lt;img&amp;gt; tag has many attributes. All of them are optional except the src which defines the path or source of the image. If width and height are omitted the image will default to the actual image size.
 The alt text is important for users who use screen readers (please don&amp;rsquo;t ignore these people!</description>
@@ -45,20 +45,20 @@ The alt text is important for users who use screen readers (please don&amp;rsquo
     
     <item>
       <title>The Complete Structure</title>
-      <link>https://jumpstart-frontend.netlify.app/html/structure/</link>
+      <link>http://localhost/dev/jumpstart/public/html/structure/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/html/structure/</guid>
+      <guid>http://localhost/dev/jumpstart/public/html/structure/</guid>
       <description>A complete HTML document At the highest level of a web document are the &amp;lt;html&amp;gt;, &amp;lt;head&amp;gt;, and &amp;lt;body&amp;gt; tags. As you noticed from the earlier HTML examples these tags are optional to render HTML, but they are highly semantic and help organize your document.
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Page Title&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;My First Heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;My first paragraph.&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; The DOCTYPE The &amp;lt;!DOCTYPE html&amp;gt; declaration defines that this document is an HTML5 document.</description>
     </item>
     
     <item>
       <title>HTML Exercise</title>
-      <link>https://jumpstart-frontend.netlify.app/html/html-exercise/</link>
+      <link>http://localhost/dev/jumpstart/public/html/html-exercise/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/html/html-exercise/</guid>
+      <guid>http://localhost/dev/jumpstart/public/html/html-exercise/</guid>
       <description>Let&amp;rsquo;s create our own basic web page and have some fun.
 What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  1. Our First Web Page The files You should have a repo you created in yesterday&amp;rsquo;s Github workshop. If you do please open the index.html file now.
 If you cannot access that file do the following:
