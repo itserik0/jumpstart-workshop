@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Jumpstart Academy: Building Blocks of the Web</title>
-    <link>http://localhost/dev/jumpstart/public/javascript/</link>
+    <link>https://jumpstart-frontend.netlify.app/javascript/</link>
     <description>Recent content in Javascript on Jumpstart Academy: Building Blocks of the Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jun 2021 15:59:10 -0400</lastBuildDate><atom:link href="http://localhost/dev/jumpstart/public/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 15:59:10 -0400</lastBuildDate><atom:link href="https://jumpstart-frontend.netlify.app/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Uses</title>
-      <link>http://localhost/dev/jumpstart/public/javascript/exercise/</link>
+      <link>https://jumpstart-frontend.netlify.app/javascript/exercise/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>http://localhost/dev/jumpstart/public/javascript/exercise/</guid>
+      <guid>https://jumpstart-frontend.netlify.app/javascript/exercise/</guid>
       <description>Selecting elements There are 5 ways to select elements on an HTML page:
 document.getElementsByTagName() document.getElementsByClassName() document.getElementById() * document.querySelector() document.querySelectorAll() * Manipulating text &amp;lt;div id=&amp;quot;example&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; document.getElementById(&amp;quot;example&amp;quot;).innerHTML = &amp;quot;Hello!&amp;quot;; &amp;lt;div id=&amp;quot;example&amp;quot;&amp;gt;Hello!&amp;lt;/div&amp;gt; Change Styling document.getElementById(&amp;quot;example&amp;quot;).style.fontSize = &amp;quot;25px&amp;quot;; document.getElementById(&amp;quot;example&amp;quot;).style.color = &amp;quot;red&amp;quot;; document.getElementById(&amp;quot;example&amp;quot;).style.backgroundColor = &amp;quot;yellow&amp;quot;; Change Attributes document.getElementById(&amp;quot;example-image&amp;quot;).src = &amp;quot;picture.gif&amp;quot;; or
 document.getElementById(&amp;quot;example&amp;quot;).classList.add(&amp;quot;my_class_name&amp;quot;); Events and Interactivity Events are things that happen in the browser — a button being clicked, a page loading, a video playing, etc. — in response to which we can run blocks of code.</description>
@@ -20,10 +20,10 @@ document.getElementById(&amp;quot;example&amp;quot;).classList.add(&amp;quot;my_
     
     <item>
       <title>Exercise</title>
-      <link>http://localhost/dev/jumpstart/public/javascript/basic-uses/</link>
+      <link>https://jumpstart-frontend.netlify.app/javascript/basic-uses/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>http://localhost/dev/jumpstart/public/javascript/basic-uses/</guid>
+      <guid>https://jumpstart-frontend.netlify.app/javascript/basic-uses/</guid>
       <description>Let&amp;rsquo;s have some fun So far this workshop has been a lot of information. Let&amp;rsquo;s have some fun and do some thing using Javascript.
 An Alert somewhere in index.html
 &amp;lt;button id=&amp;quot;my-button&amp;quot;&amp;gt;click me&amp;lt;/button&amp;gt; in script.js
