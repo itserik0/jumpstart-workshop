@@ -1,6 +1,6 @@
-#baseURL = "https://jumpstart-frontend.netlify.app/"
+baseURL = "https://jumpstart-frontend.netlify.app/"
 #erik's local dev
-baseURL = "http://localhost/dev/jumpstart/public"
+#baseURL = "http://localhost/dev/jumpstart/public"
 languageCode = "en-us"
 title = "Jumpstart Academy: Building Blocks of the Web"
 theme = "learn"
