@@ -26,9 +26,9 @@ Another helpful attribute is ```loading```. If you set the loading attribute to 
 
 ### Iframes (Inline Frame)
 
-Iframes allow you to embed content from another website. Typically you won't just embed another website into yours, in fact most websites will not allow you to embed their website for security reasons. Most of the uses for iframes are for third party widgets like ads, youtube videos, tweets, or instargram posts.
+Iframes allow you to embed content from another website into your own. An iframe is an independent HTML document that is isolated from the page it's embedded on. You cannot manipulate the contents of an iframe with CSS or Javascript. That is one of the valid purposes to use an iframe — to provide a measure of separation between your application and the iframe content.
 
-An iframe is an independent HTML document that is isolated from the page it's embedded on. You cannot manipulate the contents of an iframe with CSS or Javascript. That is one of the valid purposes to use an iframe: to provide a measure of separation between your application and the iframe content.
+Typically you won't just embed another website into yours, in fact most websites will not allow you to embed their website for security reasons. Most of the uses for iframes are for third party widgets like ads, youtube videos, tweets, or instargram posts.
 
 ```
  <iframe src="https://some-website.com" title="description" width="100%" height="500px" allow="fullscreen" ></iframe> 
@@ -38,7 +38,7 @@ An iframe is an independent HTML document that is isolated from the page it's em
 
 It is a good practice to include a title attribute for the ```<iframe>```. This is used by screen reader users to describe the content of the iframe.
 
-The ```allow``` attribute is currently experimental and only supported by Chromium-based browsers. It lets you allow allowlist specific features like letting the iframe access to the accelerometer, the battery information, the camera, or in this case to go full screen. There are more than 25 available flags.
+The ```allow``` attribute is currently experimental and only supported by Chromium-based browsers. It lets you allowlist specific features like letting the iframe access to the accelerometer, the battery information, the camera, or in this case to go full screen. There are more than 25 available flags.
 
 ### Audio
 
@@ -63,7 +63,7 @@ The text between the ```<audio>``` and ```</audio>``` tags will only be displaye
 
 ### Video
 
-There's a video player right in your browser as well.
+There's a video player in your browser as well.
 
 ```
 <video width="320" height="240" poster="placeholder.png" controls>
