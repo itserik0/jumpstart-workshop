@@ -9,7 +9,7 @@ chapter = true
 
 This workshops is about the **Building Blocks of the Web**. It is meant to give you a basic understanding of front-end web development by learning the basic construction of a web page. 
 
-There will be a lot of information and you probably won't retain all of it, but that's ok. This is meant to be a taste of what is available in front-end development. Mastering it doesn't happen in a 2½ hour course. 
+There will be a lot of information and you probably won't retain all of it, but that's ok. This is meant to be a taste of what is available in front-end development. Mastering it doesn't happen in a 2 hour course. 
 
 ## What does this workshop assume?
 
