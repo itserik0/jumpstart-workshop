@@ -11,7 +11,7 @@ Let's create our own basic web page and have some fun.
 1. A web browser of your choice
 2. Visual Studio Code (installed during installfest)
 
-### 1. Our First Web Page
+### 1. Our First Web Page (We'll do this together)
 
 #### The files
 
@@ -48,7 +48,7 @@ Let's start with a complete web document. To your index.html file:
 
 #### Build this wireframe
 
-Now let's use some html. Spend the next fifteen minutes building the following wireframe in your index.html page.
+Now let's use some html. Spend the next 15-20 minutes building the following wireframe in your index.html page.
 
 Feel free to reference the [semantic elements](/html/semantic-elements/) page or the [basic elements](/html/basic-elements/) page.
 
