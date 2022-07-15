@@ -9,7 +9,13 @@ chapter = true
 
 HTML stands for _Hyper Text Markup Language_. HTML provides a way of creating structured documents. These documents are built with elements delineated by tags. 
 
-HTMl is not a programming language, it's a markup language made up of tags also called elements, like ```<span>``` or ```<div>```. 
+## HTML is like lumber
+
+![html is like lumber](images/lumber-house.jpg)
+
+HTML is used to construct a web page, not style or manipulate it. That will come later. 
+
+HTML is not a programming language, it's a markup language made up of tags, also called elements, like ```<div>``` or ```<span>```. 
 
 Each of these ~142 elements are written using angle brackets. Tags such as ```<p>``` surround content 
 ```
@@ -37,9 +43,3 @@ For example:
 ```
 
 Browsers do not display the HTML tags, but use them to interpret the content of the page.
-
-## HTML is like lumber
-
-![html is like lumber](images/lumber-house.jpg)
-
-HTML is used to construct a web page, not style or manipulate it. That will come later. 
