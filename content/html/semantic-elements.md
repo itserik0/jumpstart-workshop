@@ -19,7 +19,7 @@ Semantic elements like: ```<form>```, ```<table>```, and ```<article>``` are mor
 
 ### Accessibility
 
-The goal of any website is to communicate information, to everyone. Not all users consume information the same way. When websites and web tools are properly designed and coded, people with disabilities can use them. Currently, many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.
+The goal of any website is to communicate information, to everyone. Users consume information in more ways than just using their eyes. When websites and web tools are properly designed and coded, people with disabilities can use them. Currently, many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.
 
 Making the web accessible benefits individuals, businesses, and society.
 
@@ -41,7 +41,7 @@ In these case it's more helpful to use:
 <footer></footer>
 ```
 
-Aside from the page content itself, semantic markup gives us an additional opportunity to communicate meaning.  For example, screen readers ignore visual styles and layout added using CSS. Semantic markup can aid screen readers in communicating the structure of the web page to its users.
+Aside from the page content itself, semantic markup gives us an additional opportunity to communicate meaning.  For example, screen readers (assistive technology that reads web content to a user) ignore visual styles and layout added using CSS. Semantic markup can aid screen readers in communicating the structure of the web page to its users.
 
 Semantic markup can also be helpful to search engines, ensuring that the right pages are delivered for the right queries. 
  
