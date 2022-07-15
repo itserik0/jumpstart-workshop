@@ -13,7 +13,7 @@ There will be a lot of information and you probably won't retain all of it, but 
 
 ## What does this workshop assume?
 
-I assume you are eager to learn more about front-end web development. All level of experience are welcome here, but we are approcaching this workshop assuming attendees have little, if any, web development experience. 
+All levels of experience are welcome here, but we are approcaching this workshop assuming attendees have little, if any, web development experience. We only assume you are eager to learn about front-end web development. 
 
 ## What does this workshop cover?
 
