@@ -27,6 +27,11 @@ Paragraphs are defined with the ```<p>``` tag:
 <p>This is a paragraph.</p>
 <p>This is the next paragraph.</p>
 ```
+Those ```<p>``` will be rendered like this:
+
+This is a paragraph.
+
+This is the next paragraph.
 
 ### Links
 
@@ -35,6 +40,9 @@ Links are defined with the ```<a>``` tag:
 ```
 <a href="https://www.website.com/">Link to website.com</a>
 ```
+That link will be rendered like this:
+
+[Link to website.com](https://www.website.com/)
 
 This tag introduces element attributes. Here the link's destination is specified in the ```href``` attribute. Attributes are used to provide additional information about HTML elements.
 
