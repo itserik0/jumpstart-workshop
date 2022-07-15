@@ -13,16 +13,6 @@ chapter = true
 
 Unlike HTML or CSS, Javascript is a programming language. It is used by the browser to manipulate just about any element on a web page. 
 
-## The DOM
-
-Before we get into Javascript we need to understand the Document Object Model or DOM.
-
-When a browser loads a page it puts a representation of the structure of the page's HTML elements into memory. This is the DOM. It is then represented an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.
-
-The DOM is not a programming language but a way of interfacing with programming languages. It's an API.
-
-To access the DOM you don't have to do anything specific. It's done by the browser each time a web page loads.
-
 ## How do we add Javascript to a web page?
 
 ###  Internal Javascript
@@ -58,3 +48,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 ```
 
+## The DOM
+
+Before we get into Javascript we need to understand the Document Object Model or DOM.
+
+When a browser loads a page it puts a representation of the structure of the page's HTML elements into memory. This is the DOM. It is then represented an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.
+
+The DOM is not a programming language but a way of interfacing with programming languages. It's an API.
+
+To access the DOM you don't have to do anything specific. It's done by the browser each time a web page loads.
