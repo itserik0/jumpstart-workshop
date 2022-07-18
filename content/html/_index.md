@@ -11,7 +11,7 @@ HTML stands for _Hyper Text Markup Language_. HTML provides a way of creating st
 
 ## HTML is like lumber
 
-![html is like lumber](images/lumber-house.jpg)
+![html is like lumber](https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F23%2F2022%2F02%2F14%2Fbuy-land-build-house-2000.jpg)
 
 HTML is used to construct a web page, not style or manipulate it. That will come later. 
 
