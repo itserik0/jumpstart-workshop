@@ -42,6 +42,7 @@ You just made a web page!
 Let's start with a complete web document. To your index.html file:
 1. Add the ```<!DOCTYPE html>```
 2. Add ```<html>```,  ```<head>```, and ```<body>``` tags
+   
 <!-- 3. Put the html content from the wireframe into a ```<body>``` tag -->
 
 ### 3. Your turn
