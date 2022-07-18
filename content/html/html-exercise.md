@@ -42,23 +42,21 @@ You just made a web page!
 Let's start with a complete web document. To your index.html file:
 1. Add the ```<!DOCTYPE html>```
 2. Add ```<html>```,  ```<head>```, and ```<body>``` tags
-3. Put the html content from the wireframe into a ```<body>``` tag
+<!-- 3. Put the html content from the wireframe into a ```<body>``` tag -->
 
-### 3. Use HTML
+### 3. Your turn
 
 #### Build this wireframe
 
-Now let's use some html. Spend the next 15-20 minutes building the following wireframe in your index.html page.
+Now let's try some html. Spend the next 15-20 minutes building the following wireframe in your index.html page.
 
 Feel free to reference the [semantic elements](/html/semantic-elements/) page or the [basic elements](/html/basic-elements/) page.
 
 If you need help with images use the [embedding things](/html/embedding-things/) page. If you need an image you can get one [here](https://pixabay.com/). To get the path to the image right click on it and choose "Copy Image Address" or "Copy Image Link".
 
-We'll do the first few elements together.
+We'll do the first few elements together. If you get stuck [here's a completed version](https://jumpstart-frontend.netlify.app/html/html-exercise.html) of this html exercise.
 
-I would suggest instead of using generic content make it fun by creating an actual web site. Like a *food blog*, *all about jellyfish* , or anything of your own choosing.
-
-Elements in each box are its child elements. 
+You could use generic content or make it fun by creating an actual web site. Like a *food blog*, *all about jellyfish* , or anything of your own choosing. It's up to you.
 
 ![Wireframe](../images/wireframe.jpg)
 
