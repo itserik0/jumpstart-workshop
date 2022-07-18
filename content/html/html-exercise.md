@@ -54,7 +54,7 @@ Feel free to reference the [semantic elements](/html/semantic-elements/) page or
 
 If you need help with images use the [embedding things](/html/embedding-things/) page. If you need an image you can get one [here](https://pixabay.com/). To get the path to the image right click on it and choose "Copy Image Address" or "Copy Image Link".
 
-We'll do the first few elements together. If you get stuck [here's a completed version](https://jumpstart-frontend.netlify.app/html/html-exercise-sample.html) of this html exercise.
+We'll do the first few elements together. If you get stuck [here's a completed version](https://jumpstart-frontend.netlify.app/html/sample-html-exercise.html) of this html exercise.
 
 You could use generic content or make it fun by creating an actual web site. Like a *food blog*, *all about jellyfish* , or anything of your own choosing. It's up to you.
 
