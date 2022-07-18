@@ -60,9 +60,9 @@ By using a ```<link>``` element to link to an external CSS file.
 </html> 
 ```
 
-The external style sheet can be written in any text editor. Save the file with a .css extension.
+The external stylesheet can be written in any text editor. Save the file with a .css extension.
 
-There's no need for the ```<style>``` tag in you CSS file since it doesn't accept HTML. Just add the following:
+There's no need for the ```<style>``` tag in your CSS file since it doesn't accept HTML. Just add the following:
 
 ```
 body{
