@@ -12,22 +12,22 @@
     <title>Embedding Things :: Jumpstart Academy: Building Blocks of the Web</title>
 
     
-    <link href="/css/nucleus.css?1658158221" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1658158221" rel="stylesheet">
-    <link href="/css/hybrid.css?1658158221" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1658158221" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1658158221" rel="stylesheet">
-    <link href="/css/auto-complete.css?1658158221" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1658158221" rel="stylesheet">
-    <link href="/css/theme.css?1658158221" rel="stylesheet">
-    <link href="/css/tabs.css?1658158221" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1658158221" rel="stylesheet">
+    <link href="/css/nucleus.css?1658158257" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1658158257" rel="stylesheet">
+    <link href="/css/hybrid.css?1658158257" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1658158257" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1658158257" rel="stylesheet">
+    <link href="/css/auto-complete.css?1658158257" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1658158257" rel="stylesheet">
+    <link href="/css/theme.css?1658158257" rel="stylesheet">
+    <link href="/css/tabs.css?1658158257" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1658158257" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1658158221" rel="stylesheet">
+    <link href="/css/theme-blue.css?1658158257" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1658158221"></script>
+    <script src="/js/jquery-3.3.1.min.js?1658158257"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1658158221"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1658158221"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1658158257"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1658158257"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/jumpstart-frontend.netlify.app\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1658158221"></script>
+<script type="text/javascript" src="/js/search.js?1658158257"></script>
 
     
   </div>
@@ -653,12 +653,12 @@
 <p>Search engines like alt text as well. If you are looking for a place to add more keywords for your content, alt text is a good place.</p>
 <p>Another helpful attribute is <code>loading</code>. If you set the loading attribute to <strong>lazy</strong> <code>loading=&quot;lazy&quot;</code> then the image will not be loaded until the users scrolls down to the image. This is helpful for pages with lots of images because the content will load faster and all page functionality will be available sooner because the page doesn&rsquo;t have to wait to load a large number of images. Images are typically the largest files and take the longest to download.</p>
 <h3 id="iframes-inline-frame">Iframes (Inline Frame)</h3>
-<p>Iframes allow you to embed content from another website. Typically you won&rsquo;t just embed another website into yours, in fact most websites will not allow you to embed their website for security reasons. Most of the uses for iframes are for third party widgets like ads, youtube videos, tweets, or instargram posts.</p>
-<p>An iframe is an independent HTML document that is isolated from the page it&rsquo;s embedded on. You cannot manipulate the contents of an iframe with CSS or Javascript. That is one of the valid purposes to use an iframe: to provide a measure of separation between your application and the iframe content.</p>
+<p>Iframes allow you to embed content from another website into your own. An iframe is an independent HTML document that is isolated from the page it&rsquo;s embedded on. You cannot manipulate the contents of an iframe with CSS or Javascript. That is one of the valid purposes to use an iframe — to provide a measure of separation between your application and the iframe content.</p>
+<p>Typically you won&rsquo;t just embed another website into yours, in fact most websites will not allow you to embed their website for security reasons. Most of the uses for iframes are for third party widgets like ads, youtube videos, tweets, or instargram posts.</p>
 <pre><code> &lt;iframe src=&quot;https://some-website.com&quot; title=&quot;description&quot; width=&quot;100%&quot; height=&quot;500px&quot; allow=&quot;fullscreen&quot; &gt;&lt;/iframe&gt; 
 </code></pre><p><img src="../images/iframe.png" alt="Iframe"></p>
 <p>It is a good practice to include a title attribute for the <code>&lt;iframe&gt;</code>. This is used by screen reader users to describe the content of the iframe.</p>
-<p>The <code>allow</code> attribute is currently experimental and only supported by Chromium-based browsers. It lets you allow allowlist specific features like letting the iframe access to the accelerometer, the battery information, the camera, or in this case to go full screen. There are more than 25 available flags.</p>
+<p>The <code>allow</code> attribute is currently experimental and only supported by Chromium-based browsers. It lets you allowlist specific features like letting the iframe access to the accelerometer, the battery information, the camera, or in this case to go full screen. There are more than 25 available flags.</p>
 <h3 id="audio">Audio</h3>
 <p>There&rsquo;s an audio player right in your browser.</p>
 <pre><code>&lt;audio controls&gt;
@@ -671,7 +671,7 @@
 <p>The text between the <code>&lt;audio&gt;</code> and <code>&lt;/audio&gt;</code> tags will only be displayed in browsers that do not support the <code>&lt;audio&gt;</code> element.</p>
 <p><img src="../images/audio-player.png" alt="Audio player"></p>
 <h3 id="video">Video</h3>
-<p>There&rsquo;s a video player right in your browser as well.</p>
+<p>There&rsquo;s a video player in your browser as well.</p>
 <pre><code>&lt;video width=&quot;320&quot; height=&quot;240&quot; poster=&quot;placeholder.png&quot; controls&gt;
     &lt;source src=&quot;movie.mp4&quot; type=&quot;video/mp4&quot;&gt;
     &lt;source src=&quot;movie.ogg&quot; type=&quot;video/ogg&quot;&gt;
@@ -1052,19 +1052,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1658158221"></script>
-    <script src="/js/perfect-scrollbar.min.js?1658158221"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1658158221"></script>
-    <script src="/js/jquery.sticky.js?1658158221"></script>
-    <script src="/js/featherlight.min.js?1658158221"></script>
-    <script src="/js/highlight.pack.js?1658158221"></script>
+    <script src="/js/clipboard.min.js?1658158257"></script>
+    <script src="/js/perfect-scrollbar.min.js?1658158257"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1658158257"></script>
+    <script src="/js/jquery.sticky.js?1658158257"></script>
+    <script src="/js/featherlight.min.js?1658158257"></script>
+    <script src="/js/highlight.pack.js?1658158257"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1658158221"></script>
-    <script src="/js/learn.js?1658158221"></script>
-    <script src="/js/hugo-learn.js?1658158221"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1658158257"></script>
+    <script src="/js/learn.js?1658158257"></script>
+    <script src="/js/hugo-learn.js?1658158257"></script>
     
         
-            <script src="/mermaid/mermaid.js?1658158221"></script>
+            <script src="/mermaid/mermaid.js?1658158257"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

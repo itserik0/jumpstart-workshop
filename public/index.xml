@@ -153,7 +153,7 @@ div.example { background: red; } @media screen and (max-width: 600px) { div.</de
       
       <guid>https://jumpstart-frontend.netlify.app/html/html-exercise/</guid>
       <description>Let&amp;rsquo;s create our own basic web page and have some fun.
-What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  1. Our First Web Page The files You should have a repo you created in yesterday&amp;rsquo;s Github workshop. If you do please open the index.html file now.
+What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  1. Our First Web Page (We&amp;rsquo;ll do this together) The files You should have a repo you created in yesterday&amp;rsquo;s Github workshop. If you do please open the index.html file now.
 If you cannot access that file do the following:
  On your desktop create a folder and name it jumpstart.</description>
     </item>
