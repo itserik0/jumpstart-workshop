@@ -98,7 +98,8 @@ Why Should We Use Semantic Elements?</description>
       
       <guid>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</guid>
       <description>1. Add some styles We&amp;rsquo;ll spend the next ten minutes on the following:
- Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements. (linked for reference)  background-color border font-size font-weight text-align text-decoration margin padding width height    2. New CSS File  In Visual Studio create a new file named styles.css. Include the new file inside your index.</description>
+ Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements. (linked for reference)  background-color border font-size font-weight text-align text-decoration margin padding width height    Here&amp;rsquo;s a completed version of the above exercise.
+2. New CSS File  In Visual Studio create a new file named styles.</description>
     </item>
     
     <item>

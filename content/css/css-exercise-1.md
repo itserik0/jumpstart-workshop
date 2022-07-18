@@ -22,6 +22,8 @@ We'll spend the next ten minutes on the following:
    9. [width](https://www.w3schools.com/cssref/pr_dim_width.asp)
    10. [height](https://www.w3schools.com/cssref/pr_dim_height.asp)
 
+Here's a [completed version](https://jumpstart-frontend.netlify.app/html/sample-css-exercise.html) of the above exercise.
+
 ### 2. New CSS File
 
 1. In **Visual Studio** create a new file named **styles.css**.

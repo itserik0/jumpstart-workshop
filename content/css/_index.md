@@ -15,7 +15,7 @@ If HTML is like lumber, then CSS is interior decorating.
 
 ## Why CSS?
 
-The separation from content and presentation is important for many reasons. When tags like ```<font>```, and color attributes were added to HTML 3 (we're currently on HTML 5), it was an improvement but a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and arduous process. 
+The separation from content and presentation is important for many reasons. When tags like ```<font>```, and color attributes were added to HTML 3 (we're currently on HTML 5), it increased the possibilites for styling a web site but it was a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and arduous process. 
 
 ### Avoid duplication. 
 If you add a style to each element you would have to write the same styles over and over again. 
@@ -35,7 +35,7 @@ With CSS you can write something like the following, and it will apply to all of
 ```
 p{
     color: red;
-    font-family:Verdana, Geneva, sans-serif;
+    font-family: Arial;
     font-size: 16px;
 }
 ```
