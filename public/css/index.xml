@@ -13,10 +13,10 @@
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
       <guid>https://jumpstart-frontend.netlify.app/css/anatomy-of-css/</guid>
-      <description>Anatomy of CSS CSS Ruleset To modify multiple property values in one ruleset, write them separated by semicolons, like this:
-p { color: red; width: 500px; border: 1px solid black; } Multiple elements To select multiple elements with one ruleset
-h1, p, a { color: red; } Types of Selectors Element selector All HTML elements of the specified type.
-p { color: red; } h2 { color: blue; } ID Selector The element on the page with the specified ID.</description>
+      <description>Anatomy of CSS CSS Ruleset A CSS ruleset is comprised of a selector, which tell the browser which HTML elements to target, and declarations, which tell the browser what values to set for certain properties of the selected HTML element.
+Declarations are separated by semicolons, like this:
+p { color: red; width: 500px; border: 1px solid black; } Multiple elements To select multiple elements with one ruleset:
+h1, p, a { color: red; } Types of Selectors Element selector Select all HTML elements of the specified type.</description>
     </item>
     
     <item>

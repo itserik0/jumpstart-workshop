@@ -12,22 +12,22 @@
     <title>Basic Elements :: Jumpstart Academy: Building Blocks of the Web</title>
 
     
-    <link href="/css/nucleus.css?1658178976" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1658178976" rel="stylesheet">
-    <link href="/css/hybrid.css?1658178976" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1658178976" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1658178976" rel="stylesheet">
-    <link href="/css/auto-complete.css?1658178976" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1658178976" rel="stylesheet">
-    <link href="/css/theme.css?1658178976" rel="stylesheet">
-    <link href="/css/tabs.css?1658178976" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1658178976" rel="stylesheet">
+    <link href="/css/nucleus.css?1659107686" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1659107686" rel="stylesheet">
+    <link href="/css/hybrid.css?1659107686" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1659107686" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1659107686" rel="stylesheet">
+    <link href="/css/auto-complete.css?1659107686" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1659107686" rel="stylesheet">
+    <link href="/css/theme.css?1659107686" rel="stylesheet">
+    <link href="/css/tabs.css?1659107686" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1659107686" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1658178976" rel="stylesheet">
+    <link href="/css/theme-blue.css?1659107686" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1658178976"></script>
+    <script src="/js/jquery-3.3.1.min.js?1659107686"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1658178976"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1658178976"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1659107686"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1659107686"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/jumpstart-frontend.netlify.app\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1658178976"></script>
+<script type="text/javascript" src="/js/search.js?1659107686"></script>
 
     
   </div>
@@ -645,7 +645,10 @@
 
 <h3 id="headings">Headings</h3>
 <p>HTML headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.</p>
-<p>The <code>&lt;h1&gt;</code> is the most important heading. It acts as the title of your document and is used only once per page. <code>&lt;h2&gt;</code> through <code>&lt;h6&gt;</code> are the next most important headings and can be used as many times as necessary in your content.</p>
+<p>The <code>&lt;h1&gt;</code> is the top-level heading. It acts as the title of your document and is used only once per page.</p>
+<p><code>&lt;h2&gt;</code> through <code>&lt;h6&gt;</code> can be used as many times as necessary in your content.</p>
+<p>Don&rsquo;t use headings to make text bigger or bolder. Only use headings when they make sense as a title for discrete sections of content.</p>
+<p>Nest headings in the proper order to make your content easy to scan, and accessible for people who use screen readers.</p>
 <pre><code>&lt;h1&gt;This is the page title&lt;/h1&gt;
 &lt;h2&gt;This is the second heading&lt;/h2&gt;
 &lt;h3&gt;This is the third heading&lt;/h3&gt;
@@ -664,9 +667,11 @@
 <pre><code>&lt;a href=&quot;https://www.website.com/&quot;&gt;Link to website.com&lt;/a&gt;
 </code></pre><p>That link will be rendered like this:</p>
 <p><a href="https://www.website.com/">Link to website.com</a></p>
-<p>This tag introduces element attributes. Here the link&rsquo;s destination is specified in the <code>href</code> attribute. Attributes are used to provide additional information about HTML elements.</p>
-<p>Element can have dozens of different attributes. Each element has a predefined attribute as defined by the W3C (World Wide Web Consortium). Custom attributes have no effect on the element.</p>
+<p>This tag uses <strong>attributes</strong>. Attributes tell the browser more about how to render a certain element.</p>
+<p>For <code>&lt;a&gt;</code> elements, the <code>href</code> attribute tells the browser where the link should go.</p>
+<p>Element can have dozens of different attributes, as defined by the World Wide Web Consortium (W3C). If you use an attribute that is not supported for a given element, it will have no effect.</p>
 <h3 id="lists">Lists</h3>
+<p>There are three different list elements. Think about what type of list you are making to determine which list element to use. For example, a list of steps to complete a task should use a numbered list.</p>
 <h4 id="unordered-list-bulleted">Unordered list (bulleted)</h4>
 <pre><code>&lt;ul&gt;
     &lt;li&gt;Item 1&lt;/li&gt;
@@ -703,7 +708,7 @@
 <dd>does not lose leaves</dd>
 </dl>
 <h4 id="tables">Tables</h4>
-<p>You may have heard tables are bad(!). Tables are bad for layout, but tables are good for tabular data:</p>
+<p>You may have heard tables are bad(!). That&rsquo;s because some developers use tables to give their content a specific layout, rather than using CSS. However, tables are great for tabular data:</p>
 <pre><code>&lt;table&gt;
     &lt;th&gt;
         &lt;td&gt;Name&lt;/td&gt;
@@ -1113,19 +1118,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1658178976"></script>
-    <script src="/js/perfect-scrollbar.min.js?1658178976"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1658178976"></script>
-    <script src="/js/jquery.sticky.js?1658178976"></script>
-    <script src="/js/featherlight.min.js?1658178976"></script>
-    <script src="/js/highlight.pack.js?1658178976"></script>
+    <script src="/js/clipboard.min.js?1659107686"></script>
+    <script src="/js/perfect-scrollbar.min.js?1659107686"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1659107686"></script>
+    <script src="/js/jquery.sticky.js?1659107686"></script>
+    <script src="/js/featherlight.min.js?1659107686"></script>
+    <script src="/js/highlight.pack.js?1659107686"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1658178976"></script>
-    <script src="/js/learn.js?1658178976"></script>
-    <script src="/js/hugo-learn.js?1658178976"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1659107686"></script>
+    <script src="/js/learn.js?1659107686"></script>
+    <script src="/js/hugo-learn.js?1659107686"></script>
     
         
-            <script src="/mermaid/mermaid.js?1658178976"></script>
+            <script src="/mermaid/mermaid.js?1659107686"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

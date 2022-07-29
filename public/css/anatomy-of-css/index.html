@@ -12,22 +12,22 @@
     <title>Anatomy of CSS :: Jumpstart Academy: Building Blocks of the Web</title>
 
     
-    <link href="/css/nucleus.css?1658178976" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1658178976" rel="stylesheet">
-    <link href="/css/hybrid.css?1658178976" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1658178976" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1658178976" rel="stylesheet">
-    <link href="/css/auto-complete.css?1658178976" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1658178976" rel="stylesheet">
-    <link href="/css/theme.css?1658178976" rel="stylesheet">
-    <link href="/css/tabs.css?1658178976" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1658178976" rel="stylesheet">
+    <link href="/css/nucleus.css?1659107686" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1659107686" rel="stylesheet">
+    <link href="/css/hybrid.css?1659107686" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1659107686" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1659107686" rel="stylesheet">
+    <link href="/css/auto-complete.css?1659107686" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1659107686" rel="stylesheet">
+    <link href="/css/theme.css?1659107686" rel="stylesheet">
+    <link href="/css/tabs.css?1659107686" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1659107686" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1658178976" rel="stylesheet">
+    <link href="/css/theme-blue.css?1659107686" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1658178976"></script>
+    <script src="/js/jquery-3.3.1.min.js?1659107686"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1658178976"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1658178976"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1659107686"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1659107686"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/jumpstart-frontend.netlify.app\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1658178976"></script>
+<script type="text/javascript" src="/js/search.js?1659107686"></script>
 
     
   </div>
@@ -644,21 +644,22 @@
 
 <h2 id="anatomy-of-css">Anatomy of CSS</h2>
 <h3 id="css-ruleset">CSS Ruleset</h3>
+<p>A CSS ruleset is comprised of a <strong>selector</strong>, which tell the browser which HTML elements to target, and <strong>declarations</strong>, which tell the browser what values to set for certain <strong>properties</strong> of the selected HTML element.</p>
 <p><img src="../images/ruleset.png" alt="CSS anatomy"></p>
-<p>To modify multiple property values in one ruleset, write them separated by semicolons, like this:</p>
+<p>Declarations are separated by semicolons, like this:</p>
 <pre><code>p {
   color: red;
   width: 500px;
   border: 1px solid black;
 }
 </code></pre><h3 id="multiple-elements">Multiple elements</h3>
-<p>To select multiple elements with one ruleset</p>
+<p>To select multiple elements with one ruleset:</p>
 <pre><code>h1, p, a {
   color: red;
 }
 </code></pre><h3 id="types-of-selectors">Types of Selectors</h3>
 <h4 id="element-selector">Element selector</h4>
-<p>All HTML elements of the specified type.</p>
+<p>Select all HTML elements of the specified type.</p>
 <pre><code>p {
     color: red;
 }
@@ -667,7 +668,7 @@ h2 {
     color: blue;
 }
 </code></pre><h4 id="id-selector">ID Selector</h4>
-<p>The element on the page with the specified ID. On any HTML page id&rsquo;s need to be unique.</p>
+<p>Select the element on the page with the specified ID. <code>id</code> is an attribute that can be applied to almost any HTML element, and must be unique. There should only be one of any given <code>id</code> on a webpage.</p>
 <pre><code>#my-id {
     width: 100px;
 }
@@ -678,7 +679,7 @@ h2 {
 &lt;div id=&quot;my-id&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;my-other-id&quot;&gt;&lt;/div&gt;
 </code></pre><h4 id="class-selector">Class Selector</h4>
-<p>The element(s) on the page with the specified class. Use as many instances of the class name as you need.</p>
+<p>Select the element(s) on the page with the specified class. <code>class</code> is an attribute that, like <code>id</code>, be applied to almost any element. However, unlike <code>id</code>, multiple elements on the same webpage can have the same <code>class</code>.</p>
 <pre><code>.my-class {
     font-weight: bold;
 }
@@ -1093,19 +1094,19 @@ h2 {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1658178976"></script>
-    <script src="/js/perfect-scrollbar.min.js?1658178976"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1658178976"></script>
-    <script src="/js/jquery.sticky.js?1658178976"></script>
-    <script src="/js/featherlight.min.js?1658178976"></script>
-    <script src="/js/highlight.pack.js?1658178976"></script>
+    <script src="/js/clipboard.min.js?1659107686"></script>
+    <script src="/js/perfect-scrollbar.min.js?1659107686"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1659107686"></script>
+    <script src="/js/jquery.sticky.js?1659107686"></script>
+    <script src="/js/featherlight.min.js?1659107686"></script>
+    <script src="/js/highlight.pack.js?1659107686"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1658178976"></script>
-    <script src="/js/learn.js?1658178976"></script>
-    <script src="/js/hugo-learn.js?1658178976"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1659107686"></script>
+    <script src="/js/learn.js?1659107686"></script>
+    <script src="/js/hugo-learn.js?1659107686"></script>
     
         
-            <script src="/mermaid/mermaid.js?1658178976"></script>
+            <script src="/mermaid/mermaid.js?1659107686"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

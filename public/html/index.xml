@@ -14,8 +14,9 @@
       
       <guid>https://jumpstart-frontend.netlify.app/html/basic-elements/</guid>
       <description>Headings HTML headings are defined with the &amp;lt;h1&amp;gt; to &amp;lt;h6&amp;gt; tags.
-The &amp;lt;h1&amp;gt; is the most important heading. It acts as the title of your document and is used only once per page. &amp;lt;h2&amp;gt; through &amp;lt;h6&amp;gt; are the next most important headings and can be used as many times as necessary in your content.
-&amp;lt;h1&amp;gt;This is the page title&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;This is the second heading&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;This is the third heading&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;This is the fourth heading&amp;lt;/h4&amp;gt; &amp;lt;h5&amp;gt;This is the fifth heading&amp;lt;/h5&amp;gt; &amp;lt;h6&amp;gt;This is the sixth heading&amp;lt;/h6&amp;gt; Paragraphs Paragraphs are defined with the &amp;lt;p&amp;gt; tag:</description>
+The &amp;lt;h1&amp;gt; is the top-level heading. It acts as the title of your document and is used only once per page.
+&amp;lt;h2&amp;gt; through &amp;lt;h6&amp;gt; can be used as many times as necessary in your content.
+Don&amp;rsquo;t use headings to make text bigger or bolder. Only use headings when they make sense as a title for discrete sections of content.</description>
     </item>
     
     <item>
@@ -25,10 +26,9 @@ The &amp;lt;h1&amp;gt; is the most important heading. It acts as the title of yo
       
       <guid>https://jumpstart-frontend.netlify.app/html/semantic-elements/</guid>
       <description>What are Semantic Elements? Semantic elements clearly describe their meaning to the browser and the developer.
-Non-semantic elements like: &amp;lt;div&amp;gt; and &amp;lt;span&amp;gt; - tell nothing about its content.
-Additionally, tags such as &amp;lt;b&amp;gt; (bold) and &amp;lt;i&amp;gt; (italics) define how the text should look, but don&amp;rsquo;t provide any additional meaning to the markup.
-Semantic elements like: &amp;lt;form&amp;gt;, &amp;lt;table&amp;gt;, and &amp;lt;article&amp;gt; are more clear in defining its content.
-Why Should We Use Semantic Elements?</description>
+Non-semantic elements like: &amp;lt;div&amp;gt; and &amp;lt;span&amp;gt; do not tell the browser or developer anything about their content.
+Semantic elements like &amp;lt;form&amp;gt;, &amp;lt;table&amp;gt;, and &amp;lt;article&amp;gt; give the browser, developer, and user a better idea of what content they contain.
+There are also tags such as &amp;lt;b&amp;gt; (bold) and &amp;lt;i&amp;gt; (italics) which define how the text should look, but don&amp;rsquo;t provide any additional meaning to the markup.</description>
     </item>
     
     <item>
@@ -39,8 +39,8 @@ Why Should We Use Semantic Elements?</description>
       <guid>https://jumpstart-frontend.netlify.app/html/embedding-things/</guid>
       <description>Many types of media and other content can be embedded directly into an HTML page.
 Images Embed an image in a page.
-&amp;lt;img src=&amp;quot;image.jpg&amp;quot; alt=&amp;quot;alt text&amp;quot; width=&amp;quot;500px&amp;quot; height=&amp;quot;200px&amp;quot; /&amp;gt; The &amp;lt;img&amp;gt; tag has many attributes. All of them are optional except the src which defines the path or source of the image. If width and height are omitted the image will default to the actual image size.
-The alt (alt text) attribute is important for users who use screen readers (please don&amp;rsquo;t ignore these people!</description>
+&amp;lt;img src=&amp;quot;image.jpg&amp;quot; alt=&amp;quot;alt text&amp;quot; width=&amp;quot;500px&amp;quot; height=&amp;quot;200px&amp;quot; /&amp;gt; The &amp;lt;img&amp;gt; tag has many attribute, but src is the only required attribute. It tells the browser where to look for the image file.
+If the width and height attributes are omitted the image will default to the actual image size.</description>
     </item>
     
     <item>

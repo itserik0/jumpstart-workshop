@@ -35,11 +35,13 @@ If the element contains other content, it ends with a closing tag.
 
 For example:
 ```
-<p>I contains content so I need to have a closing tag.</p>
+<p>I contain content so I need to have a closing tag.</p>
 ```
+
+Elements which do not contain content, like images, are self-closing. They do not required a closing tag.
 
 ```
 <img src="image.jpg" />
 ```
 
-Browsers do not display the HTML tags, but use them to interpret the content of the page.
+Browsers interpret HTML elements to display a webpage.

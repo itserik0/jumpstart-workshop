@@ -24,7 +24,7 @@ document.getElementById(&amp;quot;example&amp;quot;).classList.add(&amp;quot;my_
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
       <guid>https://jumpstart-frontend.netlify.app/javascript/basic-uses/</guid>
-      <description>Let&amp;rsquo;s have some fun So far this workshop has been a lot of information. Let&amp;rsquo;s have some fun and do some thing using Javascript.
+      <description>Let&amp;rsquo;s have some fun So far this workshop has been a lot of information. Now let&amp;rsquo;s use Javascript to make our webpage interactive!
 An Alert somewhere in index.html
 &amp;lt;button id=&amp;quot;my-button&amp;quot;&amp;gt;click me&amp;lt;/button&amp;gt; in script.js
 document.getElementById(&amp;quot;my-button&amp;quot;).addEventListener(&amp;quot;click&amp;quot;, handle_button_click); function handle_button_click(){ alert(&amp;quot;I am an alert&amp;quot;); } Change text somewhere in index.html

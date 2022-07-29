@@ -15,19 +15,15 @@ If HTML is like lumber, then CSS is interior decorating.
 
 ## Why CSS?
 
-The separation from content and presentation is important for many reasons. When tags like ```<font>```, and color attributes were added to HTML 3 (we're currently on HTML 5), it increased the possibilites for styling a web site but it was a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and arduous process. 
+Separating the style of a webpage from it's content is very important. When tags like ```<font>```, and color attributes were added to HTML 3 (we're currently on HTML 5), it increased the possibilites for styling a web site without using CSS, but it was a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and arduous process.
 
 ### Avoid duplication. 
-If you add a style to each element you would have to write the same styles over and over again. 
+If you add style attributes to each HTML element you would have to write the same styles over and over again. 
 
 ```
 <font color="red" face="Verdana, Geneva, sans-serif" size="+1">This is my first paragraph.</font>
 <font color="red" face="Verdana, Geneva, sans-serif" size="+1">This is my second paragraph.</font>
 ``` 
-
-Styling used to be added as attributes on font tags and was limited to only a few options. 
-
-Yuck. 
 
 With CSS you can write something like the following, and it will apply to all of your ```<p>``` that include that style:
 
@@ -42,7 +38,7 @@ p{
 
 ### More attributes
 
-The old tag styling was limited to a few properties like, color, font, font size, width, height, and a few others. Modern CSS now has ~520 properties and counting.
+The old style attributes and tags were limited to a few properties like color, font, font size, width, height, and a few others. Modern CSS now has ~520 properties and counting.
 
 
 ### Smaller file size

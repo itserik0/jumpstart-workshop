@@ -6,7 +6,7 @@ weight = 2
 
 ## Let's have some fun
 
-So far this workshop has been a lot of information. Let's have some fun and do some thing using Javascript. 
+So far this workshop has been a lot of information. Now let's use Javascript to make our webpage interactive!
 
 ### An Alert
 

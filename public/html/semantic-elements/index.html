@@ -12,22 +12,22 @@
     <title>Semantic Elements :: Jumpstart Academy: Building Blocks of the Web</title>
 
     
-    <link href="/css/nucleus.css?1658178976" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1658178976" rel="stylesheet">
-    <link href="/css/hybrid.css?1658178976" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1658178976" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1658178976" rel="stylesheet">
-    <link href="/css/auto-complete.css?1658178976" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1658178976" rel="stylesheet">
-    <link href="/css/theme.css?1658178976" rel="stylesheet">
-    <link href="/css/tabs.css?1658178976" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1658178976" rel="stylesheet">
+    <link href="/css/nucleus.css?1659107686" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1659107686" rel="stylesheet">
+    <link href="/css/hybrid.css?1659107686" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1659107686" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1659107686" rel="stylesheet">
+    <link href="/css/auto-complete.css?1659107686" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1659107686" rel="stylesheet">
+    <link href="/css/theme.css?1659107686" rel="stylesheet">
+    <link href="/css/tabs.css?1659107686" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1659107686" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1658178976" rel="stylesheet">
+    <link href="/css/theme-blue.css?1659107686" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1658178976"></script>
+    <script src="/js/jquery-3.3.1.min.js?1659107686"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1658178976"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1658178976"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1659107686"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1659107686"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/jumpstart-frontend.netlify.app\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1658178976"></script>
+<script type="text/javascript" src="/js/search.js?1659107686"></script>
 
     
   </div>
@@ -659,23 +659,24 @@
 
 <h2 id="what-are-semantic-elements">What are Semantic Elements?</h2>
 <p>Semantic elements clearly describe their meaning to the browser and the developer.</p>
-<p>Non-semantic elements like: <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> - tell nothing about its content.</p>
-<p>Additionally, tags such as <code>&lt;b&gt;</code> (bold) and <code>&lt;i&gt;</code> (italics) define how the text should look, but don&rsquo;t provide any additional meaning to the markup.</p>
-<p>Semantic elements like: <code>&lt;form&gt;</code>, <code>&lt;table&gt;</code>, and <code>&lt;article&gt;</code> are more clear in defining its content.</p>
+<p>Non-semantic elements like: <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> do not tell the browser or developer anything about their content.</p>
+<p>Semantic elements like <code>&lt;form&gt;</code>, <code>&lt;table&gt;</code>, and <code>&lt;article&gt;</code> give the browser, developer, and user a better idea of what content they contain.</p>
+<p>There are also tags such as <code>&lt;b&gt;</code> (bold) and <code>&lt;i&gt;</code> (italics) which define how the text should look, but don&rsquo;t provide any additional meaning to the markup.</p>
 <h2 id="why-should-we-use-semantic-elements">Why Should We Use Semantic Elements?</h2>
 <h3 id="accessibility">Accessibility</h3>
 <p>The goal of any website is to communicate information, to everyone. Users consume information in more ways than just using their eyes. When websites and web tools are properly designed and coded, people with disabilities can use them. Currently, many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.</p>
 <p>Making the web accessible benefits individuals, businesses, and society.</p>
-<p>Sites that rely on HTML code like:</p>
+<p>Sites that rely on HTML like this:</p>
 <pre><code>&lt;div id=&quot;nav&quot;&gt;&lt;/div&gt;
 &lt;div class=&quot;header&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
 </code></pre><p>to indicate navigation, header, and footer may help the developer but they don&rsquo;t help the browser understand what they are.</p>
-<p>In these case it&rsquo;s more helpful to use:</p>
+<p>However, markup like this:</p>
 <pre><code>&lt;nav&gt;&lt;/nav&gt;
 &lt;header&gt;&lt;/header&gt;
 &lt;footer&gt;&lt;/footer&gt;
-</code></pre><p>Aside from the page content itself, semantic markup gives us an additional opportunity to communicate meaning.  For example, screen readers (assistive technology that reads web content to a user) ignore visual styles and layout added using CSS. Semantic markup can aid screen readers in communicating the structure of the web page to its users.</p>
+</code></pre><p>Clearly indicates the structure of the content.</p>
+<p>Semantic markup gives us an additional opportunity to communicate meaning.  For example, screen readers ignore visual styles and layout added using CSS. Semantic markup can aid screen readers in communicating the structure of the web page to its users.</p>
 <p>Semantic markup can also be helpful to search engines, ensuring that the right pages are delivered for the right queries.</p>
 <h2 id="semantic-elements">Semantic Elements</h2>
 <p>There are more than 100 semantic elements so we&rsquo;ll just look at the commonly used tags we haven&rsquo;t already touched on:</p>
@@ -729,7 +730,8 @@
     &lt;a href=&quot;/store&quot;&gt;Store&lt;/a&gt; |
 &lt;/nav&gt; 
 </code></pre><h4 id="section-vs-article">Section vs Article</h4>
-<p>No hard rule here. You can have a <code>&lt;section&gt;</code> inside an <code>&lt;article&gt;</code> and an <code>&lt;article&gt;</code> inside a <code>&lt;section&gt;</code></p>
+<p>If content can be distributed separately from the rest of the page, and still make sense, use <code>&lt;article&gt;</code>.</p>
+<p>These elements also nest. You can have a <code>&lt;section&gt;</code> inside an <code>&lt;article&gt;</code> and an <code>&lt;article&gt;</code> inside a <code>&lt;section&gt;</code></p>
 <h3 id="header">Header</h3>
 <p>The <code>&lt;header&gt;</code> element represents a container for introductory content or a set of navigational links.</p>
 <pre><code>&lt;header&gt;
@@ -1138,19 +1140,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1658178976"></script>
-    <script src="/js/perfect-scrollbar.min.js?1658178976"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1658178976"></script>
-    <script src="/js/jquery.sticky.js?1658178976"></script>
-    <script src="/js/featherlight.min.js?1658178976"></script>
-    <script src="/js/highlight.pack.js?1658178976"></script>
+    <script src="/js/clipboard.min.js?1659107686"></script>
+    <script src="/js/perfect-scrollbar.min.js?1659107686"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1659107686"></script>
+    <script src="/js/jquery.sticky.js?1659107686"></script>
+    <script src="/js/featherlight.min.js?1659107686"></script>
+    <script src="/js/highlight.pack.js?1659107686"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1658178976"></script>
-    <script src="/js/learn.js?1658178976"></script>
-    <script src="/js/hugo-learn.js?1658178976"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1659107686"></script>
+    <script src="/js/learn.js?1659107686"></script>
+    <script src="/js/hugo-learn.js?1659107686"></script>
     
         
-            <script src="/mermaid/mermaid.js?1658178976"></script>
+            <script src="/mermaid/mermaid.js?1659107686"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

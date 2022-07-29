@@ -8,11 +8,11 @@ weight = 2
 
 Semantic elements clearly describe their meaning to the browser and the developer.
 
-Non-semantic elements like: ```<div>``` and ```<span>``` - tell nothing about its content.
+Non-semantic elements like: ```<div>``` and ```<span>``` do not tell the browser or developer anything about their content.
 
-Additionally, tags such as ```<b>``` (bold) and ```<i>``` (italics) define how the text should look, but don't provide any additional meaning to the markup. 
+Semantic elements like ```<form>```, ```<table>```, and ```<article>``` give the browser, developer, and user a better idea of what content they contain.
 
-Semantic elements like: ```<form>```, ```<table>```, and ```<article>``` are more clear in defining its content.
+There are also tags such as ```<b>``` (bold) and ```<i>``` (italics) which define how the text should look, but don't provide any additional meaning to the markup. 
 
 
 ## Why Should We Use Semantic Elements?
@@ -23,7 +23,7 @@ The goal of any website is to communicate information, to everyone. Users consum
 
 Making the web accessible benefits individuals, businesses, and society.
 
-Sites that rely on HTML code like: 
+Sites that rely on HTML like this: 
 
 ```
 <div id="nav"></div>
@@ -33,7 +33,7 @@ Sites that rely on HTML code like:
 
 to indicate navigation, header, and footer may help the developer but they don't help the browser understand what they are.
 
-In these case it's more helpful to use:
+However, markup like this:
 
 ```
 <nav></nav>
@@ -41,7 +41,9 @@ In these case it's more helpful to use:
 <footer></footer>
 ```
 
-Aside from the page content itself, semantic markup gives us an additional opportunity to communicate meaning.  For example, screen readers (assistive technology that reads web content to a user) ignore visual styles and layout added using CSS. Semantic markup can aid screen readers in communicating the structure of the web page to its users.
+Clearly indicates the structure of the content.
+
+Semantic markup gives us an additional opportunity to communicate meaning.  For example, screen readers ignore visual styles and layout added using CSS. Semantic markup can aid screen readers in communicating the structure of the web page to its users.
 
 Semantic markup can also be helpful to search engines, ensuring that the right pages are delivered for the right queries. 
  
@@ -124,7 +126,9 @@ The ```<nav>``` element defines a set of navigation links. This tag is intended 
 
 #### Section vs Article
 
-No hard rule here. You can have a ```<section>``` inside an ```<article>``` and an ```<article>``` inside a ```<section>```
+If content can be distributed separately from the rest of the page, and still make sense, use ```<article>```.
+
+These elements also nest. You can have a ```<section>``` inside an ```<article>``` and an ```<article>``` inside a ```<section>```
 
 ### Header
 

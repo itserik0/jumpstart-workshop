@@ -8,9 +8,11 @@ weight = 1
 
 ### CSS Ruleset
 
+A CSS ruleset is comprised of a **selector**, which tell the browser which HTML elements to target, and **declarations**, which tell the browser what values to set for certain **properties** of the selected HTML element.
+
 ![CSS anatomy](../images/ruleset.png)
 
-To modify multiple property values in one ruleset, write them separated by semicolons, like this:
+Declarations are separated by semicolons, like this:
 
 ```
 p {
@@ -22,7 +24,7 @@ p {
 
 ### Multiple elements
 
-To select multiple elements with one ruleset
+To select multiple elements with one ruleset:
 
 ```
 h1, p, a {
@@ -34,7 +36,7 @@ h1, p, a {
 
 #### Element selector
 
-All HTML elements of the specified type.
+Select all HTML elements of the specified type.
 
 ```
 p {
@@ -48,7 +50,7 @@ h2 {
 
 #### ID Selector
 
-The element on the page with the specified ID. On any HTML page id's need to be unique.
+Select the element on the page with the specified ID. ```id``` is an attribute that can be applied to almost any HTML element, and must be unique. There should only be one of any given ```id``` on a webpage.
 
 ```
 #my-id {
@@ -67,7 +69,7 @@ The element on the page with the specified ID. On any HTML page id's need to be 
 
 #### Class Selector
 
-The element(s) on the page with the specified class. Use as many instances of the class name as you need.
+Select the element(s) on the page with the specified class. ```class``` is an attribute that, like ```id```, be applied to almost any element. However, unlike ```id```, multiple elements on the same webpage can have the same ```class```.
 
 ```
 .my-class {

@@ -8,7 +8,13 @@ weight = 1
 
 HTML headings are defined with the ```<h1>``` to ```<h6>``` tags.
 
-The ```<h1>``` is the most important heading. It acts as the title of your document and is used only once per page. ```<h2>``` through ```<h6>``` are the next most important headings and can be used as many times as necessary in your content.
+The ```<h1>``` is the top-level heading. It acts as the title of your document and is used only once per page.
+
+```<h2>``` through ```<h6>``` can be used as many times as necessary in your content.
+
+Don't use headings to make text bigger or bolder. Only use headings when they make sense as a title for discrete sections of content. 
+
+Nest headings in the proper order to make your content easy to scan, and accessible for people who use screen readers. 
 
 ```
 <h1>This is the page title</h1>
@@ -44,11 +50,14 @@ That link will be rendered like this:
 
 [Link to website.com](https://www.website.com/)
 
-This tag introduces element attributes. Here the link's destination is specified in the ```href``` attribute. Attributes are used to provide additional information about HTML elements.
+This tag uses **attributes**. Attributes tell the browser more about how to render a certain element.
 
-Element can have dozens of different attributes. Each element has a predefined attribute as defined by the W3C (World Wide Web Consortium). Custom attributes have no effect on the element. 
+For ```<a>``` elements, the ```href``` attribute tells the browser where the link should go.
+
+Element can have dozens of different attributes, as defined by the World Wide Web Consortium (W3C). If you use an attribute that is not supported for a given element, it will have no effect.
 
 ### Lists
+There are three different list elements. Think about what type of list you are making to determine which list element to use. For example, a list of steps to complete a task should use a numbered list.
 
 #### Unordered list (bulleted)
 
@@ -96,7 +105,7 @@ Evergreen tree
 
 #### Tables
 
-You may have heard tables are bad(!). Tables are bad for layout, but tables are good for tabular data:
+You may have heard tables are bad(!). That's because some developers use tables to give their content a specific layout, rather than using CSS. However, tables are great for tabular data:
 
 ```
 <table>
