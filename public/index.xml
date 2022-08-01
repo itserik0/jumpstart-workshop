@@ -48,8 +48,8 @@ document.getElementById(&amp;quot;example&amp;quot;).classList.add(&amp;quot;my_
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
       <guid>https://jumpstart-frontend.netlify.app/introduction/checklist/</guid>
-      <description>Before we begin, let&amp;rsquo;s make sure you have everything you need to successfully complete this workship
- Visual Studio Code installed A web browser of your choice A copy on your computer of the starter repository you created in the &amp;ldquo;Intro to Git &amp;amp; GitHub&amp;rdquo; workshop  index.html file (HTML) styles.css file (CSS) script.js file (Javascript)    </description>
+      <description>Before we begin, let&amp;rsquo;s make sure you have everything you need to successfully complete this workshop
+ Visual Studio Code is installed A web browser of your choice A copy on your computer of the starter repository you created in the Intro to Git &amp;amp; GitHub workshop  index.html file (HTML) styles.css file (CSS) script.js file (Javascript)    </description>
     </item>
     
     <item>
