@@ -23,6 +23,6 @@ The Building Blocks of the Web portion of the Jumpstart workshop focuses specifi
 
 ## What doesn't this workshop cover?
 
-This workshop will not cover the **back-end** or server side languages of web development. Back-end or server-side languages build the infrastruture that supports the front-end. They are rendered on a web server and not by your computer (browser). Server side language are used to dynamically display different data when needed, generally pulled out of a database and stored on the server before they are sent to your browser.
+This workshop will not cover the **back-end** or server side languages of web development. The back-end happens on a web server, while the front-end happens right in the browser on your computer.
 
-You may have heard of programing languages like PHP, Python, Java, or C++ (there's a zillion of them). They are server side programming languages and these will be discussed in the Introduction to Databases & Web Dev Workshop workshop later this week.  
+You may have heard of programing languages like PHP, Python, Java, or C++ (there's a zillion of them). They are server side programming languages and these will be discussed in the **Intro to Python** and **Introduction to Databases & Web Dev** workshop later this week.  
