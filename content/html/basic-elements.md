@@ -105,7 +105,7 @@ Evergreen tree
 
 #### Tables
 
-You may have heard tables are bad(!). That's because some developers use tables to give their content a specific layout, rather than using CSS. However, tables are great for tabular data:
+You may have heard tables are bad(!). That's because developers, in the past, would use tables layout their content. Tables are not good for laying out content, however, tables are great for tabular data:
 
 ```
 <table>
@@ -134,7 +134,7 @@ You may have heard tables are bad(!). That's because some developers use tables 
 
 #### Comments
 
-HTML comments help to document your code. They are not displayed in the browser.
+HTML comments are not displayed in the browser. Their purpose is to document your code. 
 
 ```
 <!-- This is a comment -->
