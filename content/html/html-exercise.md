@@ -10,25 +10,26 @@ Let's create our own basic web page and have some fun.
 
 1. A web browser of your choice
 2. Visual Studio Code (installed during installfest)
+3. The repository created in the **Intro to Git & GitHub** workshop
 
 ### 1. Our First Web Page (We'll do this together)
 
 #### The files
 
-You should have a repo you created in yesterday's Github workshop. If you do please open the index.html file now. 
+You should have a repo you created in yesterday's Github workshop. If you do please open the index.html inside Visual Studio Code file. 
 
 If you cannot access that file do the following:
 
-1. On your desktop create a folder and name it **jumpstart**.
+1. On your desktop create a folder and name it **building-blocks**.
 2. Open **Visual Studio Code**
-3. Inside **Visual Studio Code** open the **jumpstart** directory (File >> Open).
-4. Inside **jumpstart** create a file named **index.html**.
+3. Inside **Visual Studio Code** open the **building-blocks** directory (File >> Open).
+4. Inside **building-blocks** create a file named **index.html**.
 
-Or use this sample repo [here](https://github.com/itserik0/jumpstart-starter-repo).
+Or use this sample repo [here](https://github.com/itserik0/building-blocks).
 
 #### First step
 
-1. Inside **index.html** add some text.
+1. Inside **index.html** add ```<p>some text</p>```.
 2. Open **index.html** in your web browser.
 
 You should see this:

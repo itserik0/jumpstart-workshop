@@ -25,7 +25,7 @@ Let's go back to the html page we made. Right now it probably looks like a confu
 
 We can get a better idea of what the layout looks like using CSS. 
 
-1. Open the **styles.css** file.
+1. Open the **style.css** file.
 2. In your styles add a unique background color for each of the following elements: 
    - header
    - nav

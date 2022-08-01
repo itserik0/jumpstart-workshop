@@ -23,7 +23,7 @@ At the highest level of a web document are the ```<html>```, ```<head>```, and `
 
 ### The DOCTYPE
 
-The ```<!DOCTYPE html>``` declaration defines that this document is an HTML5 document. HTML5 is the latest (and in theory the last) set of HTML specifications. The HTML5 specifications are "living standars" which mean they are constantly evolving.
+The ```<!DOCTYPE html>``` declaration defines that this document is an HTML5 document. HTML5 is the latest (and in theory the last) set of HTML specifications. The HTML5 specifications are "living standards" which mean they are constantly evolving.
 
 ### HTML
 
@@ -31,7 +31,7 @@ The ```<html>``` element is the root element of an HTML page.
 
 ### HEAD
 
-The ```<head>``` element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed.
+The ```<head>``` element is a container for metadata. HTML metadata is data about the HTML document and is not displayed.
 
 The HTML ```<head>``` element is a container for the following elements: ```<title>, <style>, <meta>, <link>, and <script>```.
 
@@ -74,7 +74,7 @@ Here are some common examples:
 ```
 <meta charset="UTF-8">
 <meta name="description" content="This webpage is about Beanie Babies">
-<meta name="keywords" content="Beanie Babies are a line of stuffed toys.">
+<meta name="keywords" content="beanie babies|beanies|pugs|pug dogs|tan|black ears|gold|embroidered|paws|poseable">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="refresh" content="5" />
 

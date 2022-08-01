@@ -24,9 +24,8 @@ We'll spend the next ten minutes on the following:
 
 Here's a [completed version](https://jumpstart-frontend.netlify.app/css/sample-css-exercise.html) of the above exercise.
 
-### 2. New CSS File
+### 2. Include CSS File
 
-1. In **Visual Studio** create a new file named **styles.css**.
-2. Include the new file inside your **index.html** file. ```<link rel="stylesheet" src="styles.css" />```
-3. Add the styles from above to the new **styles.css** file and remove the ```<style>``` tag.
-4. When you refresh the **index.html** page, the styles should stay the same.
+1. Include the css file inside the ```<head>``` tag of your **index.html** file. ```<link rel="stylesheet" src="style.css" />```
+2. Add the styles from above to the new **style.css** file. Make sure you remove the ```<style>``` tag.
+3. When you refresh the **index.html** page, the styles should stay the same.

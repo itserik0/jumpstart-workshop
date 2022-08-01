@@ -109,7 +109,7 @@ No Server Needed You&amp;rsquo;ll notice the example web page is running on its 
       <guid>https://jumpstart-frontend.netlify.app/css/css-exercise-1/</guid>
       <description>1. Add some styles We&amp;rsquo;ll spend the next ten minutes on the following:
  Open your index.html file. Add a &amp;lt;style&amp;gt; tag inside the &amp;lt;head&amp;gt; tag. Try out the following properties on your other elements. (linked for reference)  background-color border font-size font-weight text-align text-decoration margin padding width height    Here&amp;rsquo;s a completed version of the above exercise.
-2. New CSS File  In Visual Studio create a new file named styles.</description>
+2. Include CSS File  Include the css file inside the &amp;lt;head&amp;gt; tag of your index.</description>
     </item>
     
     <item>
@@ -164,9 +164,7 @@ div.example { background: red; } @media screen and (max-width: 600px) { div.</de
       
       <guid>https://jumpstart-frontend.netlify.app/html/html-exercise/</guid>
       <description>Let&amp;rsquo;s create our own basic web page and have some fun.
-What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest)  1. Our First Web Page (We&amp;rsquo;ll do this together) The files You should have a repo you created in yesterday&amp;rsquo;s Github workshop. If you do please open the index.html file now.
-If you cannot access that file do the following:
- On your desktop create a folder and name it jumpstart.</description>
+What you&amp;rsquo;ll need  A web browser of your choice Visual Studio Code (installed during installfest) The repository created in the Intro to Git &amp;amp; GitHub workshop  1. Our First Web Page (We&amp;rsquo;ll do this together) The files You should have a repo you created in yesterday&amp;rsquo;s Github workshop. If you do please open the index.html inside Visual Studio Code file.</description>
     </item>
     
     <item>
