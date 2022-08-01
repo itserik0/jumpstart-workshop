@@ -110,6 +110,12 @@ An article should make sense on its own, and it should be possible to distribute
 </article>
 ```
 
+#### Section vs Article
+
+If content can be distributed separately from the rest of the page, and still make sense, use ```<article>```.
+
+These elements also nest. You can have a ```<section>``` inside an ```<article>``` and an ```<article>``` inside a ```<section>```
+
 ## Nav
 
 The ```<nav>``` element defines a set of navigation links. This tag is intended only for major blocks of links
@@ -124,12 +130,6 @@ The ```<nav>``` element defines a set of navigation links. This tag is intended 
 </nav> 
 ```
 
-#### Section vs Article
-
-If content can be distributed separately from the rest of the page, and still make sense, use ```<article>```.
-
-These elements also nest. You can have a ```<section>``` inside an ```<article>``` and an ```<article>``` inside a ```<section>```
-
 ### Header
 
 The ```<header>``` element represents a container for introductory content or a set of navigational links.
@@ -142,7 +142,7 @@ The ```<header>``` element represents a container for introductory content or a 
 </header>
 ```
 
-### Footer
+### Footer&nbsp;
 
 The ```<footer>``` element defines a footer for a document or section.
 
