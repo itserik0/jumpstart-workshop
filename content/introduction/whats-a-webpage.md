@@ -1,7 +1,7 @@
 +++
 title = "What's a Web Page?"
 date = 2021-06-17T16:34:21-04:00
-weight = 1
+weight = 2
 +++
 
 At the most basic level, a web page consists of a text document and a web browser. The text document, or your content, is written in a language called HTML (Hyper Text Markup Language). Your browser is able to read that file and render the HTML markup.

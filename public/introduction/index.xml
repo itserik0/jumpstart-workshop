@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Jun 2021 16:09:58 -0400</lastBuildDate><atom:link href="https://jumpstart-frontend.netlify.app/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Workshop Checklist</title>
+      <link>https://jumpstart-frontend.netlify.app/introduction/checklist/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/introduction/checklist/</guid>
+      <description>Before we begin, let&amp;rsquo;s make sure you have everything you need to successfully complete this workship
+ Visual Studio Code installed A web browser of your choice. A copy on your computer of the starter repository you created in the &amp;ldquo;Intro to Git &amp;amp; GitHub&amp;rdquo; workshop.  index.html file (HTML) styles.css file (CSS) script.js file (Javascript)    </description>
+    </item>
+    
+    <item>
       <title>What&#39;s a Web Page?</title>
       <link>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>

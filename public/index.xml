@@ -43,14 +43,13 @@ document.getElementById(&amp;quot;example&amp;quot;).classList.add(&amp;quot;my_
     </item>
     
     <item>
-      <title>What&#39;s a Web Page?</title>
-      <link>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</link>
+      <title>Workshop Checklist</title>
+      <link>https://jumpstart-frontend.netlify.app/introduction/checklist/</link>
       <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
       
-      <guid>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</guid>
-      <description>At the most basic level, a web page consists of a text document and a web browser. The text document, or your content, is written in a language called HTML (Hyper Text Markup Language). Your browser is able to read that file and render the HTML markup.
-The file The HTML inside the file &amp;lt;p&amp;gt;Hello.&amp;lt;/p&amp;gt; The file opened in a web browser That&amp;rsquo;s it. That&amp;rsquo;s a web page.
-No Server Needed You&amp;rsquo;ll notice the example web page is running on its own.</description>
+      <guid>https://jumpstart-frontend.netlify.app/introduction/checklist/</guid>
+      <description>Before we begin, let&amp;rsquo;s make sure you have everything you need to successfully complete this workship
+ Visual Studio Code installed A web browser of your choice. A copy on your computer of the starter repository you created in the &amp;ldquo;Intro to Git &amp;amp; GitHub&amp;rdquo; workshop.  index.html file (HTML) styles.css file (CSS) script.js file (Javascript)    </description>
     </item>
     
     <item>
@@ -89,6 +88,17 @@ There are also tags such as &amp;lt;b&amp;gt; (bold) and &amp;lt;i&amp;gt; (ital
 1. Inline By using the style attribute inside HTML elements
 &amp;lt;h1 style=&amp;quot;color:red;&amp;quot;&amp;gt;A Red Heading&amp;lt;/h1&amp;gt; &amp;lt;p style=&amp;quot;color:pink;&amp;quot;&amp;gt;A pink paragraph.&amp;lt;/p&amp;gt; 2. Internal By using a &amp;lt;style&amp;gt; element in the &amp;lt;head&amp;gt; section
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; body{ background-color: orange; } h1{ color: blue; } p{ color: #cc0000; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;This is a heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 3.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s a Web Page?</title>
+      <link>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</link>
+      <pubDate>Thu, 17 Jun 2021 16:34:21 -0400</pubDate>
+      
+      <guid>https://jumpstart-frontend.netlify.app/introduction/whats-a-webpage/</guid>
+      <description>At the most basic level, a web page consists of a text document and a web browser. The text document, or your content, is written in a language called HTML (Hyper Text Markup Language). Your browser is able to read that file and render the HTML markup.
+The file The HTML inside the file &amp;lt;p&amp;gt;Hello.&amp;lt;/p&amp;gt; The file opened in a web browser That&amp;rsquo;s it. That&amp;rsquo;s a web page.
+No Server Needed You&amp;rsquo;ll notice the example web page is running on its own.</description>
     </item>
     
     <item>
