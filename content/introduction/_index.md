@@ -7,17 +7,17 @@ chapter = true
 
 # Introduction
 
-This workshops is about the **Building Blocks of the Web**. It is meant to give you a basic understanding of front-end web development by learning the basic construction of a web page. 
+This workshop is about the **Building Blocks of the Web**. It is meant to give you a basic understanding of front-end web development by learning the basic construction of a web page.
 
-There will be a lot of information and you probably won't retain all of it, but that's ok. This is meant to be a taste of what is available in front-end development. Mastering it doesn't happen in a 2 hour course. 
+There will be a lot of information and you probably won't retain all of it, but that's ok. This is meant to be a taste of what is available in front-end development. Mastering it doesn't happen in a 2 hour course.
 
 ## What does this workshop assume?
 
-All levels of experience are welcome here, but we are approcaching this workshop assuming attendees have little, if any, web development experience. We only assume you are eager to learn about front-end web development. 
+All levels of experience are welcome here, but we are approaching this workshop assuming attendees have little, if any, web development experience. We only assume you are eager to learn about front-end web development.
 
 ## What does this workshop cover?
 
-The Building Blocks of the Web portion of the Jumpstart workshop focuses specifically on **front-end** web development. The front-end is what the user can see — the visual layout and interactivity of a web site. Front-end development consists of a combination of technologies: **Hypertext Markup Language (HTML)**, **JavaScript** and **Cascading Style Sheets (CSS)**.
+This workshop focuses specifically on **front-end** web development. The front-end is what the user can see — the visual layout and interactivity of a web site. Front-end development consists of a combination of technologies: **Hypertext Markup Language (HTML)**, **JavaScript** and **Cascading Style Sheets (CSS)**.
 
 ![client-side server-side](images/client-side-vs-server-side-rendering.png)
 
